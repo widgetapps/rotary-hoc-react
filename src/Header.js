@@ -4,9 +4,6 @@ import './Header.css';
 import Hero from './Hero';
 
 class Header extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
@@ -51,22 +48,27 @@ class Header extends Component {
 
                                     <ul class="dropdown-menu dropdown-menu-mm dropdown-menu-persist">
                                         <li class="row">
-                                            <ul class="col-md-6">
+                                            <ul class="col-md-4">
                                                 <li class="dropdown-header">Volunteer</li>
                                                 <li><a href="volunteer.html">Be a Volunteer</a></li>
                                                 <li><a href="https://app.vroomhq.com/s/rotary-2018">Go to VROOM!</a></li>
                                             </ul>
-                                            <ul class="col-md-6">
+                                            <ul class="col-md-4">
                                                 <li class="dropdown-header">Host Hospitality</li>
                                                 <li><a href="hosthospitality.html">Learn More</a></li>
                                                 <li><a href="https://docs.google.com/a/rotary7070.ca/forms/d/e/1FAIpQLSeMeOB7oSrj55pMvePRTlVuOjvFd0wiF7GNxGmzFgI3rSep9Q/viewform">Register to Host</a></li>
+                                            </ul>
+                                            <ul class="col-md-4">
+                                                <li class="dropdown-header">HOC Resources</li>
+                                                <li><a href="#">Files</a></li>
+                                                <li><a href="#">About the HOC</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-footer">
                                             <div class="row">
                                                 <div class="col-md-7">The HOC is looking for input from Rotarians. <strong>Send us your ideas.</strong></div>
                                                 <div class="col-md-5">
-                                                    <a href="ideas.html" class="btn btn-more btn-lg pull-right"><i class="fa fa-users"></i> Submit Ideas</a>
+                                                    <a href="ideas.html" class="btn btn-more btn-lg pull-right"><i class="fa fa-commenting"></i> Submit Ideas</a>
                                                 </div>
                                             </div>
                                         </li>

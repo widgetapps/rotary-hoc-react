@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import Header from '../Header';
 import DocumentMeta from 'react-document-meta';
 import BodyClassName from 'react-body-classname';
+import DataNews from '../data/Data-News';
 
 class Home extends Component {
     render() {
@@ -28,14 +30,16 @@ class Home extends Component {
             }
         };
 
+        const featureArticle = DataNews.get(DataNews.articles.length);
+
         return (
             <DocumentMeta {...meta} extend>
                 <Header>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-md-push-6 item-caption">
-                                <h2 class="h1 text-weight-light">
-                                    Welcome to <span class="text-primary"><strong>TORONTO</strong></span>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-6 col-md-push-6 item-caption">
+                                <h2 className="h1 text-weight-light">
+                                    Welcome to <span className="text-primary"><strong>TORONTO</strong></span>
                                 </h2>
                                 <h4>
                                     There's a world of opportunity waiting for you at the Rotary convention.
@@ -44,10 +48,10 @@ class Home extends Component {
                                     to join us in Toronto, Canada June 23-27 2018. With the spirit of true Canadian
                                     hospitality, we wish to welcome Rotarians from around the world to experience
                                     everything Toronto and the Golden Horseshoe has to offer.</p>
-                                <a href="http://www.riconvention.org/en/toronto" class="btn btn-more btn-lg i-right">Register Now <i class="fa fa-plus"></i></a>
+                                <a href="http://www.riconvention.org/en/toronto" class="btn btn-more btn-lg i-right">Register Now <i className="fa fa-plus"></i></a>
                             </div>
                             <div class="col-md-6 col-md-pull-6 hidden-xs">
-                                <img src="img/c18toronto_logo.png" alt="Slide 1" class="center-block img-responsive" />
+                                <img src="img/c18toronto_logo.png" alt="Slide 1" className="center-block img-responsive" />
                             </div>
                         </div>
                     </div>
@@ -57,118 +61,82 @@ class Home extends Component {
                 </Header>
                 <BodyClassName className="page-index has-hero">
                     <div id="content">
-                        <div class="mission text-center block block-pd-sm block-bg-noise">
-                            <div class="container">
-                                <h2 class="text-shadow-white">
+                        <div className="mission text-center block block-pd-sm block-bg-noise">
+                            <div className="container">
+                                <h2 className="text-shadow-white">
                                     Find inspiration on every block, in every street, and around every corner in Toronto.
                                     See what we have planned for convention visitors.
                                 </h2>
                             </div>
                         </div>
-                        <div class="showcase block block-border-bottom-grey">
-                            <div class="container">
-                                <h2 class="block-title">
-                                    Venue Showcase
+                        <div className="block block-border-bottom-grey">
+                            <div className="container">
+                                <h2 className="block-title">
+                                    Host Ticketed Events
                                 </h2>
-                                <p>Toronto is known as a city of neighbourhoods, where every culture has a home. Here
-                                    are a few of the venues you'll get to explore at the Toronto 2018 Convention.</p>
-                                <div class="item-carousel" data-toggle="owlcarousel" data-owlcarousel-settings='{"items":4, "pagination":false, "navigation":true, "itemsScaleUp":true}'>
-                                    <div class="item">
-                                        <a href="venue-mtcc.html" class="overlay-wrapper">
-                                            <img src="img/venues/mtcc.jpg" alt="Metro Toronto Convention Centre image" class="img-responsive underlay" />
-                                            <span class="overlay">
-                                                <span class="overlay-content">
-                                                    <span class="h4">Metro Toronto Convention Centre</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                        <div class="item-details bg-noise">
-                                            <h4 class="item-title">
-                                                <a href="venue-mtcc.html">MTCC</a>
-                                            </h4>
-                                            <a href="venue-mtcc.html" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
+                                <p>Toronto is known as a city of neighbourhoods, where every culture has a home.</p>
+                                <div className="row">
+                                    <div className="col-md-4 col-lg-3">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                Event
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="item">
-                                        <a href="venue-acc.html" class="overlay-wrapper">
-                                            <img src="img/venues/acc.jpg" alt="Air Canada Centre image" class="img-responsive underlay" />
-                                            <span class="overlay">
-                                                <span class="overlay-content">
-                                                    <span class="h4">Air Canada Centre</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                        <div class="item-details bg-noise">
-                                            <h4 class="item-title">
-                                                <a href="venue-acc.html">Air Canada Centre</a>
-                                            </h4>
-                                            <a href="venue-acc.html" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
+                                    <div className="col-md-4 col-lg-3">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                Event
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="item">
-                                        <a href="venue-casa_loma.html" class="overlay-wrapper">
-                                            <img src="img/venues/casa_loma.jpg" alt="Project 3 image" class="img-responsive underlay" />
-                                            <span class="overlay">
-                                                <span class="overlay-content">
-                                                    <span class="h4">Casa Loma</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                        <div class="item-details bg-noise">
-                                            <h4 class="item-title">
-                                                <a href="venue-casa_loma.html">Casa Loma</a>
-                                            </h4>
-                                            <a href="venue-casa_loma.html" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
+                                    <div className="col-md-4 col-lg-3">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                Event
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="item">
-                                        <a href="venue-distillery.html" class="overlay-wrapper">
-                                            <img src="img/venues/distillery_district.jpg" alt="Project 4 image" class="img-responsive underlay" />
-                                            <span class="overlay">
-                                                <span class="overlay-content">
-                                                    <span class="h4">Distillery District</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                        <div class="item-details bg-noise">
-                                            <h4 class="item-title">
-                                                <a href="venue-distillery.html">Distillery District</a>
-                                            </h4>
-                                            <a href="venue-distillery.html" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <a href="venue-direct_energy.html" class="overlay-wrapper">
-                                            <img src="img/venues/direct_energy_centre.jpg" alt="Project 5 image" class="img-responsive underlay" />
-                                            <span class="overlay">
-                                                <span class="overlay-content">
-                                                    <span class="h4">Direct Energy Centre</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                        <div class="item-details bg-noise">
-                                            <h4 class="item-title">
-                                                <a href="venue-direct_energy.html">Direct Energy Centre</a>
-                                            </h4>
-                                            <a href="venue-direct_energy.html" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
+                                    <div className="col-md-4 col-lg-3">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                Event
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div className="block block-border-bottom-grey">
+                            <div className="container">
+                                <h2 className="block-title">
+                                    Featured News
+                                </h2>
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <h4>{featureArticle.title}</h4>
+                                        {featureArticle.content.map(a => (
+                                            <p>{a}</p>
+                                        ))}
 
-                        <div class="services block block-bg-gradient block-border-bottom">
-                            <div class="container">
-                                <h2 class="block-title">
+                                        <Link to="/news" className="btn btn-more i-right">Read More News <i className="fa fa-plus"></i></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="services block block-bg-gradient block-border-bottom">
+                            <div className="container">
+                                <h2 className="block-title">
                                     About Toronto
                                 </h2>
-                                <div class="row">
-                                    <div class="col-md-4 text-center">
-                                        <span class="fa-stack fa-5x">
-                                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                          <i class="fa fa-building fa-stack-1x fa-inverse"></i>
+                                <div className="row">
+                                    <div className="col-md-4 text-center">
+                                        <span className="fa-stack fa-5x">
+                                          <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                                          <i className="fa fa-building fa-stack-1x fa-inverse"></i>
                                         </span>
-                                        <h4 class="text-weight-strong">
+                                        <h4 className="text-weight-strong">
                                             This Is Toronto
                                         </h4>
                                         <p>Toronto is Canada's largest city, the fourth largest in North America, and home to a diverse
@@ -178,12 +146,12 @@ class Home extends Component {
                                             <a href="http://www.seetorontonow.com/explore-toronto/this-is-toronto/" target="remote" class="btn btn-more i-right">Learn More <i class="fa fa-link"></i></a>
                                         </p>
                                     </div>
-                                    <div class="col-md-4 text-center">
-                                      <span class="fa-stack fa-5x">
-                                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                          <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                                    <div className="col-md-4 text-center">
+                                      <span className="fa-stack fa-5x">
+                                          <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                                          <i className="fa fa-map-marker fa-stack-1x fa-inverse"></i>
                                       </span>
-                                        <h4 class="text-weight-strong">
+                                        <h4 className="text-weight-strong">
                                             Explore Toronto Neighbourhoods
                                         </h4>
                                         <p>The strength and vitality of the many neighbourhoods that make up Toronto has earned the city its
@@ -194,10 +162,10 @@ class Home extends Component {
                                             <a href="http://www.seetorontonow.com/explore-toronto/neighbourhoods/" target="remote" class="btn btn-more i-right">Learn More <i class="fa fa-link"></i></a>
                                         </p>
                                     </div>
-                                    <div class="col-md-4 text-center">
-                                      <span class="fa-stack fa-5x">
-                                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                      <i class="fa fa-bus fa-stack-1x fa-inverse"></i>
+                                    <div className="col-md-4 text-center">
+                                      <span className="fa-stack fa-5x">
+                                      <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                                      <i className="fa fa-bus fa-stack-1x fa-inverse"></i>
                                       </span>
                                         <h4 class="text-weight-strong">
                                             Day Trips, Tours &amp; Specialty Events

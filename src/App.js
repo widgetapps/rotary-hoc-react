@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import DocumentMeta from 'react-document-meta';
-import {Route} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 import Footer from './Footer';
 import logo from './logo.svg';
 import './App.css';
@@ -20,10 +20,13 @@ class App extends Component {
 
         return (
                 <DocumentMeta {...meta} extend>
-                    <Route exact path="/" component={Home}/>
-                    <Route path="/events" component={Events}/>
-                    <Route path="/news" component={News}/>
-                    <Route path="/hof" component={Hof}/>
+                    <Switch>
+                        <Route exact path="/" component={Home}/>
+                        <Route path="/events" component={Events}/>
+                        <Route exact  path="/news" component={News}/>
+                        <Route path="/news/:number" component={News}/>
+                        <Route path="/hof" component={Hof}/>
+                    </Switch>
                     <Footer />
                 </DocumentMeta>
         );

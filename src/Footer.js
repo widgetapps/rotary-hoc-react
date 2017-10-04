@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import DocumentMeta from 'react-document-meta';
 import {Link} from 'react-router-dom';
-import logo from './logo.svg';
 import './Header.css';
 
 class Footer extends Component {
