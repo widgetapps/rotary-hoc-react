@@ -1521,7 +1521,7 @@ img {
 }
 body,
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
 }
 h1,
 h2,
