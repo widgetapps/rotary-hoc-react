@@ -1,3 +1,82 @@
-{
-
-}
+[
+  {
+    "id": 1,
+    "datetime": "2018-06-23 12:00:00",
+    "type": "hoc",
+    "name": "Test Event HOC",
+    "description": "Description",
+    "gettingthere": "",
+    "price": 12.00,
+    "venue": {
+      "name": "",
+      "address": "",
+      "details": "",
+      "location": ""
+    },
+    "eventbright": ""
+  },
+  {
+    "id": 2,
+    "datetime": "2018-06-24 12:00:00",
+    "type": "pre",
+    "name": "Test Event PRE",
+    "description": "Description",
+    "gettingthere": "",
+    "price": 12.00,
+    "venue": {
+      "name": "",
+      "address": "",
+      "details": "",
+      "location": ""
+    },
+    "eventbright": ""
+  },
+  {
+    "id": 3,
+    "datetime": "2018-06-23 09:00:00",
+    "type": "post",
+    "name": "Test Event POST",
+    "description": "Description",
+    "gettingthere": "",
+    "price": 12.00,
+    "venue": {
+      "name": "",
+      "address": "",
+      "details": "",
+      "location": ""
+    },
+    "eventbright": ""
+  },
+  {
+    "id": 4,
+    "datetime": "2018-06-23 12:00:00",
+    "type": "hoc",
+    "name": "Test Event HOC 2",
+    "description": "Description",
+    "gettingthere": "",
+    "price": 12.00,
+    "venue": {
+      "name": "",
+      "address": "",
+      "details": "",
+      "location": ""
+    },
+    "eventbright": ""
+  },
+  {
+    "id": 5,
+    "datetime": "2018-06-23 12:00:00",
+    "type": "hoc",
+    "name": "Test Event HOC 3",
+    "description": "Description",
+    "gettingthere": "",
+    "price": 12.00,
+    "venue": {
+      "name": "",
+      "address": "",
+      "details": "",
+      "location": ""
+    },
+    "eventbright": ""
+  }
+]

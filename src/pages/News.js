@@ -31,7 +31,7 @@ class News extends Component {
                 }
             }};
 
-        var number = parseInt(this.props.match.params.number, 10);
+        let number = parseInt(this.props.match.params.number, 10);
         if (!number || number < 1 || number > DataNews.articles.length) {
             number = DataNews.articles.length;
         }
@@ -54,7 +54,7 @@ class News extends Component {
                                 <div className="col-md-9 col-md-push-3">
                                     <Article number={this.props.match.params.number} />
                                 </div>
-                                <div className="col-md-3 col-md-pull-9 sidebar visible-md-block visible-lg-block">
+                                <div className="col-md-3 col-md-pull-9 sidebar">
                                     <ul className="nav nav-pills nav-stacked">
                                         {
                                             DataNews.all().map(n => (

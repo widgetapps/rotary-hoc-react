@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
+import {Link, Redirect} from 'react-router-dom';
 import Header from '../Header';
 import DocumentMeta from 'react-document-meta';
 import BodyClassName from 'react-body-classname';
+import DataEvents from '../data/DataEvent';
+import Event from './Event';
+import DataNews from "../data/DataNews";
 
 class Events extends Component {
     render() {
+
+        if (!this.props.match.params.type) {
+            return <Redirect to='/events/hoc/1'/>;
+        }
+
         const meta = {
             title: 'Events | Rotary International Convention Toronto 2018 (June 23-27)',
             description: 'I am a description, and I can create multiple tags',
@@ -28,6 +37,35 @@ class Events extends Component {
             }
         };
 
+        let number = 1;
+        let type = 'hoc';
+        switch (this.props.match.params.type) {
+            case 'hoc':
+                type = 'hoc';
+                number = 1;
+                break;
+            case 'pre':
+                type = 'pre';
+                number = 2;
+                break;
+            case 'post':
+                type = 'post';
+                number = 3;
+                break;
+            default:
+                number = parseInt(this.props.match.params.id, 10);
+                if (!number || number < 1 || number > DataEvents.events.length) {
+                    number = 1;
+                }
+        }
+
+        if (this.props.match.params.id) {
+            number = parseInt(this.props.match.params.id, 10);
+            if (!number || number < 1 || number > DataEvents.events.length) {
+                number = number;
+            }
+        }
+
         return (
             <DocumentMeta {...meta} extend>
                 <Header />
@@ -42,46 +80,30 @@ class Events extends Component {
                                             <small>Explore the many events of the convention</small>
                                         </h1>
                                     </div>
-                                    <div class="services block block-bg-gradient block-border-bottom">
-                                        <div class="row">
-                                            <div class="col-md-4 text-center">
-                                                <span class="fa-stack fa-5x">
-                                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                                    <i class="fa fa-home fa-stack-1x fa-inverse"></i>
-                                                </span>
-                                                <h4 class="text-weight-strong">
-                                                    House of Friendship
-                                                </h4>
-                                                <p>This is where the Rotary world comes together and where ideas, best practices, and
-                                                    project successes are proudly shared. There will be events &amp; entertainment
-                                                    scheduled in the House of Friendship for the duration of the convention.</p>
+                                    <div className="row">
+                                        <div className="col-md-9 col-md-push-3">
+                                            <Event number={number} />
+                                        </div>
+                                        <div className="col-md-3 col-md-pull-9 sidebar">
+                                            <h5>Select Event Convention Timing:</h5>
+                                            <div className="btn-group btn-group-justified" role="group" aria-label="Event types">
+                                                <Link to="/events/pre/2" type="button" className={`btn btn-default ${type === 'pre'?'active':'notactive'}`}>Pre</Link>
+                                                <Link to="/events/hoc/1" type="button" className={`btn btn-default ${type === 'hoc'?'active':'notactive'}`}>During</Link>
+                                                <Link to="/events/post/3" type="button" className={`btn btn-default ${type === 'post'?'active':'notactive'}`}>Post</Link>
                                             </div>
-                                            <div class="col-md-4 text-center">
-                                              <span class="fa-stack fa-5x">
-                                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                                  <i class="fa fa-cutlery fa-stack-1x fa-inverse"></i>
-                                              </span>
-                                                <h4 class="text-weight-strong">
-                                                    Host Hospitality
-                                                </h4>
-                                                <p>Host hospitality is an opportunity to meet fellow Rotarians from the around the world.
-                                                    Dinners will be hosted on Monday night by local Rotarians in their homes or in venues in
-                                                    the Greater Toronto Area. Be sure to sign up for home hospitality when you register for
-                                                    the 2018 conference, it sells out fast!</p>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <span class="fa-stack fa-5x">
-                                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                                    <i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
-                                                </span>
-                                                <h4 class="text-weight-strong">
-                                                    Ticketed Events
-                                                </h4>
-                                                <p>Several ticketed events will be held at featured venues in the Toronto area. Events will
-                                                    take place at various times during the convention and sales for ticketed events will be
-                                                    announced when they become available. Be sure to check out the <a href="venue-mtcc.html">events venues</a> for a sneak
-                                                    peek.</p>
-                                            </div>
+                                            <h5>Available Events</h5>
+                                            <ul className="nav nav-pills nav-stacked">
+                                                {
+                                                    DataEvents.all().filter(g => g.type === type).map(e => (
+                                                        <li key={e.id} className={e.id == number?'active':'notactive'}>
+                                                            <Link to={`/events/${type}/${e.id}`}>
+                                                                {e.name}
+                                                                <small>Price ${e.price}</small>
+                                                            </Link>
+                                                        </li>
+                                                    ))
+                                                }
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>

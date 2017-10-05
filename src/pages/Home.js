@@ -4,6 +4,7 @@ import Header from '../Header';
 import DocumentMeta from 'react-document-meta';
 import BodyClassName from 'react-body-classname';
 import DataNews from '../data/DataNews';
+import DataEvents from '../data/DataEvent';
 
 class Home extends Component {
     render() {
@@ -76,34 +77,21 @@ class Home extends Component {
                                 </h2>
                                 <p>Toronto is known as a city of neighbourhoods, where every culture has a home.</p>
                                 <div className="row">
-                                    <div className="col-md-4 col-lg-3">
-                                        <div class="panel panel-default">
-                                            <div class="panel-body">
-                                                Event
+
+                                    {
+                                        DataEvents.all().filter(g => g.type === 'hoc').map(e => (
+
+                                            <div className="col-md-4 col-lg-3">
+                                                <div className="panel panel-default">
+                                                    <div className="panel-body">
+                                                        <h6>{e.name}</h6>
+                                                        <p>{e.description}</p>
+                                                        <Link to={`/events/hoc/${e.id}`}>Event info</Link>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-4 col-lg-3">
-                                        <div class="panel panel-default">
-                                            <div class="panel-body">
-                                                Event
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-4 col-lg-3">
-                                        <div class="panel panel-default">
-                                            <div class="panel-body">
-                                                Event
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-4 col-lg-3">
-                                        <div class="panel panel-default">
-                                            <div class="panel-body">
-                                                Event
-                                            </div>
-                                        </div>
-                                    </div>
+                                        ))
+                                    }
                                 </div>
                             </div>
                         </div>

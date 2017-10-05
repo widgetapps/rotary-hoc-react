@@ -7,74 +7,75 @@ class Header extends Component {
 
     render() {
         return (
-            <div id="background-wrapper" class="toronto">
-            <div id="navigation" class="wrapper">
+            <div id="background-wrapper" className="toronto">
+            <div id="navigation" className="wrapper">
 
-                <div class="header">
-                    <div class="header-inner container">
-                        <div class="row">
-                            <div class="col-md-8">
+                <div className="header">
+                    <div className="header-inner container">
+                        <div className="row">
+                            <div className="col-md-8">
 
-                                <a class="navbar-brand" href="index.html" title="Home">
-                                    <h1 class="hidden">
+                                <a className="navbar-brand" href="/" title="Home">
+                                    <h1 className="hidden">
                                         <img src="img/c18toronto_logo.png" alt="Convention Logo" />
                                             Toronto 2018
                                     </h1>
                                 </a>
-                                <div class="navbar-slogan">
+                                <div className="navbar-slogan">
                                     Inspiration around<br />every corner
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
+                            <div className="col-md-4">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="navbar navbar-default">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <div className="container">
+                    <div className="navbar navbar-default">
+                        <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span> </button>
 
-                        <div class="navbar-text social-media social-media-inline pull-right">
-                            <a href="https://twitter.com/RotaryTO2018"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/RotaryTO2018/"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/RotaryTO2018/"><i class="fa fa-instagram"></i></a>
+                        <div className="navbar-text social-media social-media-inline pull-right">
+                            <a href="https://twitter.com/RotaryTO2018"><i className="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/RotaryTO2018/"><i className="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/RotaryTO2018/"><i className="fa fa-instagram"></i></a>
                         </div>
 
-                        <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav" id="main-menu">
-                                <li class="icon-link">
-                                    <Link to="/"><i class="fa fa-home"></i></Link>
+                        <div className="navbar-collapse collapse">
+                            <ul className="nav navbar-nav" id="main-menu">
+                                <li className="icon-link">
+                                    <Link to="/"><i className="fa fa-home"></i></Link>
                                 </li>
-                                <li><Link to="/events">Events</Link></li>
+
+                                <li><Link to="/events/hoc/1">Events</Link></li>
                                 <li><Link to="/news">News</Link></li>
                                 <li><Link to="/hof">House of Friendship</Link></li>
-                                <li class="dropdown dropdown-mm">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HOC<b class="caret"></b></a>
+                                <li className="dropdown dropdown-mm">
+                                    <a href="#" className="dropdown-toggle" data-toggle="dropdown">HOC<b className="caret"></b></a>
 
-                                    <ul class="dropdown-menu dropdown-menu-mm dropdown-menu-persist">
-                                        <li class="row">
-                                            <ul class="col-md-4">
-                                                <li class="dropdown-header">Volunteer</li>
+                                    <ul className="dropdown-menu dropdown-menu-mm dropdown-menu-persist">
+                                        <li className="row">
+                                            <ul className="col-md-4">
+                                                <li className="dropdown-header">Volunteer</li>
                                                 <li><Link to="/volunteer">Be a Volunteer</Link></li>
                                                 <li><a href="https://app.vroomhq.com/s/rotary-2018">Go to VROOM!</a></li>
                                             </ul>
-                                            <ul class="col-md-4">
-                                                <li class="dropdown-header">Host Hospitality</li>
+                                            <ul className="col-md-4">
+                                                <li className="dropdown-header">Host Hospitality</li>
                                                 <li><Link to="/host">Learn More</Link></li>
                                                 <li><a href="https://docs.google.com/a/rotary7070.ca/forms/d/e/1FAIpQLSeMeOB7oSrj55pMvePRTlVuOjvFd0wiF7GNxGmzFgI3rSep9Q/viewform">Register to Host</a></li>
                                             </ul>
-                                            <ul class="col-md-4">
-                                                <li class="dropdown-header">HOC Resources</li>
+                                            <ul className="col-md-4">
+                                                <li className="dropdown-header">HOC Resources</li>
                                                 <li><Link to="/files">Files</Link></li>
                                                 <li><Link to="/about">About the HOC</Link></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown-footer">
-                                            <div class="row">
-                                                <div class="col-md-7">The HOC is looking for input from Rotarians. <strong>Send us your ideas.</strong></div>
-                                                <div class="col-md-5">
-                                                    <a href="ideas.html" class="btn btn-more btn-lg pull-right"><i class="fa fa-commenting"></i> Submit Ideas</a>
+                                        <li className="dropdown-footer">
+                                            <div className="row">
+                                                <div className="col-md-7">The HOC is looking for input from Rotarians. <strong>Send us your ideas.</strong></div>
+                                                <div className="col-md-5">
+                                                    <a href="ideas.html" className="btn btn-more btn-lg pull-right"><i className="fa fa-commenting"></i> Submit Ideas</a>
                                                 </div>
                                             </div>
                                         </li>
