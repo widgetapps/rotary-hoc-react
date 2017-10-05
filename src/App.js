@@ -8,6 +8,10 @@ import News from "./pages/News";
 import Home from "./pages/Home";
 import Hof from "./pages/Hof";
 import Events from "./pages/Events";
+import Volunteer from './pages/Volunteer';
+import Host from './pages/Host';
+import Files from './pages/Files';
+import About from './pages/About';
 
 class App extends Component {
     render() {
@@ -22,10 +26,15 @@ class App extends Component {
                 <DocumentMeta {...meta} extend>
                     <Switch>
                         <Route exact path="/" component={Home}/>
-                        <Route path="/events" component={Events}/>
+                        <Route exact path="/events" component={Events}/>
+                        <Route path="/events/:id" component={Events}/>
                         <Route exact  path="/news" component={News}/>
                         <Route path="/news/:number" component={News}/>
                         <Route path="/hof" component={Hof}/>
+                        <Route path="/volunteer" component={Volunteer}/>
+                        <Route path="/host" component={Host}/>
+                        <Route path="/files" component={Files}/>
+                        <Route path="/about" component={About}/>
                     </Switch>
                     <Footer />
                 </DocumentMeta>

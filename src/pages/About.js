@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import Header from '../Header';
 import DocumentMeta from 'react-document-meta';
-import DataNews from '../data/DataNews';
+import BodyClassName from 'react-body-classname';
 
-class Article extends Component {
+class About extends Component {
     render() {
         const meta = {
-            title: 'Events | Rotary International Convention Toronto 2018 (June 23-27)',
+            title: 'About | Rotary International Convention Toronto 2018 (June 23-27)',
             description: 'I am a description, and I can create multiple tags',
-            canonical: 'http://rotary2018.org/',
+            canonical: 'http://rotary2018.org/hof',
             meta: {
+                charset: 'utf-8',
                 name: {
                     keywords: 'react,meta,document,html,tags',
                     'twitter:card': '',
@@ -27,25 +29,22 @@ class Article extends Component {
             }
         };
 
-
-        var article = DataNews.get(
-            parseInt(this.props.number, 10)
-        );
-        if (!article) {
-            article =  DataNews.get(DataNews.articles.length);
-        }
-
         return (
             <DocumentMeta {...meta} extend>
-                <div class="block block-border-bottom-grey block-pd-sm">
-                    <h3 class="block-title">{article.title}</h3>
-                    {article.content.map(a => (
-                        <p>{a}</p>
-                    ))}
+                <Header />
+                <BodyClassName className="page-about"><div id="content">
+                    <div className="container" id="about">
+                        <div className="row">
+                            <div className="col-md-12">
+                                ABOUT
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                </BodyClassName>
             </DocumentMeta>
         );
     }
 }
 
-export default Article;
+export default About;

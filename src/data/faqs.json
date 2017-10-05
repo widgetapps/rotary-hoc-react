@@ -2,14 +2,125 @@
   {
     "id": 1,
     "type": "volunteer",
-    "question": "",
-    "answer": "",
+    "question": "What are convention volunteers?",
+    "answer": "They are a group of people that have agreed to help the Convention visitors find a safe, welcome and enjoyable time in Toronto. They are the face of Toronto to our visitors and those that will introduce True Canadian Hospitality to our guests.",
+    "links": []
+  },
+  {
+    "id": 2,
+    "type": "volunteer",
+    "question": "Who can be a volunteer?",
+    "answer": "Any Rotarian or Rotaractor or guest of a Rotarian or Rotaractor that is registered for the convention and at least 19 years old can be a volunteer.",
+    "links": []
+  },
+  {
+    "id": 3,
+    "type": "volunteer",
+    "question": "What will volunteers be doing for the convention?",
+    "answer": "Volunteers will be positioned at sites around the Toronto area to help our guests find their way to and from various locations in Toronto. They will be positioned at the Toronto Pearson International Airport, Union Station, all hotels, and at all major HOC events.",
+    "links": []
+  },
+  {
+    "id": 4,
+    "type": "volunteer",
+    "question": "When will volunteers be needed?",
+    "answer": "Volunteer assignments have already begun and will continue through the to Convention (23 June 2018). If you are going to the 2017 Convention in Atlanta, we require several volunteers to staff the Toronto Convention booth in their Hall of Friendship.",
+    "links": []
+  },
+  {
+    "id": 5,
+    "type": "volunteer",
+    "question": "How long will volunteers be expected to work?",
+    "answer": "Typical assignments will be from 2 to 4 hours on a given day. Anyone desiring to work longer or multiple days will be happily accepted. The variation in hours is dependent on the number of volunteers we get signed up. We are looking for 1,200 volunteers for the duration of the convention.",
+    "links": []
+  },
+  {
+    "id": 6,
+    "type": "volunteer",
+    "question": "Will volunteers receive training and further instruction?",
+    "answer": "Orientation and training will take place for all volunteers. You will also receive a Toronto 2018 Rotary vest indicating you as a go to person when on duty at the convention.",
+    "links": []
+  },
+  {
+    "id": 7,
+    "type": "volunteer",
+    "question": "Can I request a specific location or time to volunteer?",
+    "answer": "All of our volunteer convention requirements are scheduled into shifts. You can select the shifts that you would like to volunteer for. This includes shift day,  shift time and even the shift location.",
+    "links": []
+  },
+  {
+    "id": 8,
+    "type": "volunteer",
+    "question": "Where is the convention located?",
+    "answer": "The Rotary International Convention Toronto 2018 will be held at the Metro Toronto Convention Centre and the Air Canada Centre in downtown Toronto.",
     "links": [
       {
         "type": "map",
-        "text": "Click here",
-        "url": ""
+        "text": "Metro Toronto Convention Centre",
+        "url": "https://goo.gl/maps/9KhJrGXnhMr"
+      },
+      {
+        "type": "map",
+        "text": "Air Canada Centre",
+        "url": "https://goo.gl/maps/EbGay2E6dVG2"
       }
     ]
+  },
+  {
+    "id": 9,
+    "type": "host",
+    "question": "What kind of event should we have and where?",
+    "answer": "There are three types of events: 1)Personal home Hospitality, where one couple hosts 2-3 couples at their home or other location; 2) Group Host Hospitality, where more than one couple get together, usually at a home or a private club; 3) Club(s) Host Hospitality, where the entire club, or group of clubs go together to host a dinner at a location such as a restaurant, club, church, school, etc. The limitation is the distance from the downtown Toronto area, due to traffic. Venues should not be more than one hour bus ride, from the Convention Centre.",
+    "links": []
+  },
+  {
+    "id": 10,
+    "type": "host",
+    "question": "What else might we do?",
+    "answer": "Some clubs take their guests to interesting sites in their areas or provide some interesting information on the area, history, club activities. Some provide entertainment, such as a band or a speaker, etc.",
+    "links": []
+  },
+  {
+    "id": 11,
+    "type": "host",
+    "question": "How do we get the guests to our venue?",
+    "answer": "Buses will be provided for large groups( a bus load 40-60). If a club in an area has a number of hosts, then the bus will deliver the guests to a central location and hosts will pick up their guests individually. If you are in Toronto, it will be your responsibility to make arrangements to pick up your guests, if your group is less than 40 people.",
+    "links": []
+  },
+  {
+    "id": 12,
+    "type": "host",
+    "question": "What is the timing?",
+    "answer": "Delegates will be expecting to leave for host hospitality at 5pm and must be returned to their hotel for 10pm.",
+    "links": []
+  },
+  {
+    "id": 13,
+    "type": "host",
+    "question": "Who pays for this?",
+    "answer": "The hosts are responsible for the cost of this event, except for the bus transportation which will be borne by Rotary.",
+    "links": []
+  },
+  {
+    "id": 14,
+    "type": "host",
+    "question": "How are we to know the details of the plans?",
+    "answer": "We need a contact person from your club to oversee the event. This person will be responsible for passing along information and for letting us know the number of venues and people that your club members might be able to accommodate. Sign up Sheets are required for each host and are available at each club or on line. If you have Club members who speak other languages and would like to have guests from a particular country, you need to advise us through your representative.",
+    "links": []
+  },
+  {
+    "id": 15,
+    "type": "host",
+    "question": "How do we contact these people?",
+    "answer": "Once we have all the registrations, we will be assigning our guests to hosts. Names, hotel information, emails and phone numbers will be provided when possible.",
+    "links": []
+  },
+  {
+    "id": 16,
+    "type": "host",
+    "question": "If we have friends in Rotary can they be added to our group?",
+    "answer": "Yes, you may add them to your guest list but they will not be part of our Host Hospitality list of people , who we identify as being your guests.",
+    "links": []
   }
 ]
+

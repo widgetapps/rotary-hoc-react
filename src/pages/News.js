@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Header from '../Header';
 import DocumentMeta from 'react-document-meta';
 import BodyClassName from 'react-body-classname';
-import DataNews from '../data/Data-News';
+import DataNews from '../data/DataNews';
 import Article from './Article';
 
 class News extends Component {

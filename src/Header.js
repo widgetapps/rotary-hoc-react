@@ -50,18 +50,18 @@ class Header extends Component {
                                         <li class="row">
                                             <ul class="col-md-4">
                                                 <li class="dropdown-header">Volunteer</li>
-                                                <li><a href="volunteer.html">Be a Volunteer</a></li>
+                                                <li><Link to="/volunteer">Be a Volunteer</Link></li>
                                                 <li><a href="https://app.vroomhq.com/s/rotary-2018">Go to VROOM!</a></li>
                                             </ul>
                                             <ul class="col-md-4">
                                                 <li class="dropdown-header">Host Hospitality</li>
-                                                <li><a href="hosthospitality.html">Learn More</a></li>
+                                                <li><Link to="/host">Learn More</Link></li>
                                                 <li><a href="https://docs.google.com/a/rotary7070.ca/forms/d/e/1FAIpQLSeMeOB7oSrj55pMvePRTlVuOjvFd0wiF7GNxGmzFgI3rSep9Q/viewform">Register to Host</a></li>
                                             </ul>
                                             <ul class="col-md-4">
                                                 <li class="dropdown-header">HOC Resources</li>
-                                                <li><a href="#">Files</a></li>
-                                                <li><a href="#">About the HOC</a></li>
+                                                <li><Link to="/files">Files</Link></li>
+                                                <li><Link to="/about">About the HOC</Link></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-footer">
