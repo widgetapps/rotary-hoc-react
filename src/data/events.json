@@ -4,79 +4,83 @@
     "datetime": "2018-06-23 12:00:00",
     "type": "hoc",
     "name": "Test Event HOC",
-    "description": "Description",
-    "gettingthere": "",
-    "price": 12.00,
-    "venue": {
-      "name": "",
-      "address": "",
-      "details": "",
-      "location": ""
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
+    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
+    "price": 99.00,
+    "image": {
+      "listing": "",
+      "page": ""
     },
-    "eventbright": ""
+    "venue": {
+      "name": "Distillery District",
+      "address": "Corner of Parliament Steet and Mill Street.",
+      "details": "The pedestrian-only Distillery District, set in quaint 19th century buildings that once housed a large whiskey distillery, draws crowds to its cobblestone streets lined with hip indie restaurants, bars and boutiques.",
+      "map": "https://goo.gl/maps/GnXSPeQX9nA2"
+    },
+    "eventlink": "https://www.eventbrite.ca/e/hoc-test-event-listing-tickets-38656445469"
   },
   {
     "id": 2,
     "datetime": "2018-06-24 12:00:00",
     "type": "pre",
     "name": "Test Event PRE",
-    "description": "Description",
-    "gettingthere": "",
-    "price": 12.00,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
+    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
+    "price": 45.00,
     "venue": {
-      "name": "",
+      "name": "Venue Name",
       "address": "",
       "details": "",
-      "location": ""
+      "map": ""
     },
-    "eventbright": ""
+    "eventlink": ""
   },
   {
     "id": 3,
     "datetime": "2018-06-23 09:00:00",
     "type": "post",
     "name": "Test Event POST",
-    "description": "Description",
-    "gettingthere": "",
-    "price": 12.00,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
+    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
+    "price": 30.00,
     "venue": {
-      "name": "",
+      "name": "Venue Name",
       "address": "",
       "details": "",
-      "location": ""
+      "map": ""
     },
-    "eventbright": ""
+    "eventlink": ""
   },
   {
     "id": 4,
     "datetime": "2018-06-23 12:00:00",
     "type": "hoc",
     "name": "Test Event HOC 2",
-    "description": "Description",
-    "gettingthere": "",
-    "price": 12.00,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
+    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
+    "price": 99.00,
     "venue": {
-      "name": "",
-      "address": "",
-      "details": "",
-      "location": ""
+      "name": "Steam Whistle Brewery",
+      "address": "255 Bremner Blvd, Toronto, ON M5V 3M9",
+      "details": "Pilsner brewery in a historic brick railway roundhouse offering tours with tastings and a store.",
+      "map": "https://goo.gl/maps/tqtLEiv4rLQ2"
     },
-    "eventbright": ""
+    "eventlink": "https://www.eventbrite.ca/e/hoc-test-event-listing-tickets-38656445469"
   },
   {
     "id": 5,
     "datetime": "2018-06-23 12:00:00",
     "type": "hoc",
     "name": "Test Event HOC 3",
-    "description": "Description",
-    "gettingthere": "",
-    "price": 12.00,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
+    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
+    "price": 65.00,
     "venue": {
-      "name": "",
-      "address": "",
-      "details": "",
-      "location": ""
+      "name": "Ripley's Aquarium of Canada",
+      "address": "288 Bremner Blvd, Toronto, ON M5V 3L9",
+      "details": "Expansive, modern aquarium with many species & habitats on display, plus events & classes.",
+      "map": "https://goo.gl/maps/JAJMVUmuAMz"
     },
-    "eventbright": ""
+    "eventlink": "https://www.eventbrite.ca/e/hoc-test-event-listing-tickets-38656445469"
   }
 ]
