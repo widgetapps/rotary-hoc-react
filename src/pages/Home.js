@@ -9,24 +9,24 @@ import DataEvents from '../data/DataEvent';
 class Home extends Component {
     render() {
         const meta = {
-            title: 'News | Rotary International Convention Toronto 2018 (June 23-27)',
-            description: 'I am a description, and I can create multiple tags',
-            canonical: 'http://rotary2018.org/',
+            title: 'Rotary International Convention Toronto 2018 (June 23-27)',
+            description: 'There’s a world of opportunity waiting for you at the Toronto convention.',
+            canonical: '/',
             meta: {
                 name: {
-                    keywords: 'react,meta,document,html,tags',
-                    'twitter:card': '',
-                    'twitter:site': '',
-                    'twitter:title': '',
-                    'twitter:description': '',
-                    'twitter:image': ''
+                    keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee',
+                    'twitter:card': 'summary',
+                    'twitter:site': '@RotaryTO2018',
+                    'twitter:title': 'Rotary International Convention Toronto 2018 (June 23-27)',
+                    'twitter:description': 'There’s a world of opportunity waiting for you at the Toronto convention.',
+                    'twitter:image': '/img/c18toronto_logo.png'
                 },
                 property: {
-                    'og:title': 'OG Title',
-                    'og:image': 'OG',
-                    'og:url': 'OG',
-                    'og:site_name': 'OG',
-                    'og:description': 'OG'
+                    'og:title': 'Rotary International Convention Toronto 2018 (June 23-27)',
+                    'og:type': 'website',
+                    'og:image': '/img/c18toronto_logo.png',
+                    'og:url': 'http://rotary2018.org/',
+                    'og:description': 'There’s a world of opportunity waiting for you at the Toronto convention.'
                 }
             }
         };
@@ -49,14 +49,14 @@ class Home extends Component {
                                     to join us in Toronto, Canada June 23-27 2018. With the spirit of true Canadian
                                     hospitality, we wish to welcome Rotarians from around the world to experience
                                     everything Toronto and the Golden Horseshoe has to offer.</p>
-                                <a href="http://www.riconvention.org/en/toronto" class="btn btn-more btn-lg i-right">Register Now <i className="fa fa-plus"></i></a>
+                                <a href="http://www.riconvention.org/en/toronto" className="btn btn-more btn-lg i-right">Register Now <i className="fa fa-plus"></i></a>
                             </div>
-                            <div class="col-md-6 col-md-pull-6 hidden-xs">
-                                <img src="img/c18toronto_logo.png" alt="Slide 1" className="center-block img-responsive" />
+                            <div className="col-md-6 col-md-pull-6 hidden-xs">
+                                <img src="../img/c18toronto_logo.png" alt="Slide 1" className="center-block img-responsive" />
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         &nbsp;
                     </div>
                 </Header>
@@ -68,31 +68,6 @@ class Home extends Component {
                                     Find inspiration on every block, in every street, and around every corner in Toronto.
                                     See what we have planned for convention visitors.
                                 </h2>
-                            </div>
-                        </div>
-                        <div className="block block-border-bottom-grey">
-                            <div className="container">
-                                <h2 className="block-title">
-                                    Host Ticketed Events
-                                </h2>
-                                <p>Toronto is known as a city of neighbourhoods, where every culture has a home.</p>
-                                <div className="row">
-
-                                    {
-                                        DataEvents.all().filter(g => g.type === 'hoc').map(e => (
-
-                                            <div className="col-md-4 col-lg-3">
-                                                <div className="panel panel-default">
-                                                    <div className="panel-body">
-                                                        <h6>{e.name}</h6>
-                                                        <p>{e.description}</p>
-                                                        <Link to={`/events/hoc/${e.id}`}>Event info</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        ))
-                                    }
-                                </div>
                             </div>
                         </div>
                         <div className="block block-border-bottom-grey">
@@ -131,7 +106,7 @@ class Home extends Component {
                                             population of about 2.8 million people. It's a global centre for business, finance, arts and
                                             culture and is consistently ranked one of the world's most livable cities.</p>
                                         <p>
-                                            <a href="http://www.seetorontonow.com/explore-toronto/this-is-toronto/" target="remote" class="btn btn-more i-right">Learn More <i class="fa fa-link"></i></a>
+                                            <a href="http://www.seetorontonow.com/explore-toronto/this-is-toronto/" target="remote" class="btn btn-more i-right">Learn More <i className="fa fa-link"></i></a>
                                         </p>
                                     </div>
                                     <div className="col-md-4 text-center">
@@ -147,7 +122,7 @@ class Home extends Component {
                                             recognized by the City of Toronto and upwards of 240 official and unofficial neighbourhoods
                                             within the city's boundaries</p>
                                         <p>
-                                            <a href="http://www.seetorontonow.com/explore-toronto/neighbourhoods/" target="remote" class="btn btn-more i-right">Learn More <i class="fa fa-link"></i></a>
+                                            <a href="http://www.seetorontonow.com/explore-toronto/neighbourhoods/" target="remote" class="btn btn-more i-right">Learn More <i className="fa fa-link"></i></a>
                                         </p>
                                     </div>
                                     <div className="col-md-4 text-center">
@@ -161,10 +136,10 @@ class Home extends Component {
                                         <p>Canadian Tours International offers day trips, customized day and multi day excursions Canada
                                             coast to coast, specialty event planning and coordination as well as special activity programs.</p>
 
-                                        <p>For further information please contact Ann Corbitt at <a href="mailto:annc@ctidmc.com">annc@ctidmc.com</a>
-                                            or at <a href="tel:+14165265859">+1&nbsp;416-526-5859</a>.</p>
+                                        <p>For further information please contact Ann Corbitt at <a href="mailto:annc@ctidmc.com">annc@ctidmc.com</a> or
+                                            at <a href="tel:+14165265859">+1&nbsp;416-526-5859</a>.</p>
                                         <p>
-                                            <a href="http://www.regonline.com/torontotourprogram" target="remote" class="btn btn-more i-right">Learn More <i class="fa fa-link"></i></a>
+                                            <a href="http://www.regonline.com/torontotourprogram" target="remote" class="btn btn-more i-right">Learn More <i className="fa fa-link"></i></a>
                                         </p>
                                 </div>
                             </div>

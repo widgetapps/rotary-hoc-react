@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import DocumentMeta from 'react-document-meta';
 import {Switch, Route} from 'react-router-dom';
 import Footer from './Footer';
-import logo from './logo.svg';
 import './App.css';
 import News from "./pages/News";
 import Home from "./pages/Home";
@@ -12,6 +11,7 @@ import Volunteer from './pages/Volunteer';
 import Host from './pages/Host';
 import Files from './pages/Files';
 import About from './pages/About';
+import Thanks from './pages/Thanks';
 
 class App extends Component {
     render() {
@@ -35,6 +35,7 @@ class App extends Component {
                         <Route path="/host" component={Host}/>
                         <Route path="/files" component={Files}/>
                         <Route path="/about" component={About}/>
+                        <Route path="/thanks" component={Thanks}/>
                     </Switch>
                     <Footer />
                 </DocumentMeta>

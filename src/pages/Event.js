@@ -4,36 +4,32 @@ import DataEvent from '../data/DataEvent';
 
 class Event extends Component {
     render() {
-        const meta = {
-            title: 'Event Name | Rotary International Convention Toronto 2018 (June 23-27)',
-            description: 'I am a description, and I can create multiple tags',
-            canonical: 'http://rotary2018.org/',
-            meta: {
-                name: {
-                    keywords: 'react,meta,document,html,tags',
-                    'twitter:card': '',
-                    'twitter:site': '',
-                    'twitter:title': '',
-                    'twitter:description': '',
-                    'twitter:image': ''
-                },
-                property: {
-                    'og:title': 'OG Title',
-                    'og:image': 'OG',
-                    'og:url': 'OG',
-                    'og:site_name': 'OG',
-                    'og:description': 'OG'
-                }
-            }
-        };
-
-
         let event = DataEvent.get(
             parseInt(this.props.number, 10)
         );
         if (!event) {
             event =  DataEvent.get(1);
         }
+
+        const meta = {
+            title: 'Events - ' + event.name + ' | Rotary International Convention Toronto 2018 (June 23-27)',
+            description: event.description,
+            canonical: '/events/' + event.id,
+            meta: {
+                name: {
+                    keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee, events',
+                    'twitter:card': 'summary',
+                    'twitter:title': 'Events - ' + event.name + ' | Rotary International Convention Toronto 2018 (June 23-27)',
+                    'twitter:description': event.description
+                },
+                property: {
+                    'og:title': 'Events - ' + event.name + ' | Rotary International Convention Toronto 2018 (June 23-27)',
+                    'og:type': 'website',
+                    'og:url': 'http://rotary2018.org/events/' + event.id,
+                    'og:description': event.description
+                }
+            }
+        };
 
         return (
             <DocumentMeta {...meta} extend>

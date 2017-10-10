@@ -3,30 +3,10 @@ import Header from '../Header';
 import DocumentMeta from 'react-document-meta';
 import BodyClassName from 'react-body-classname';
 
-class Files extends Component {
+class Thanks extends Component {
     render() {
         const meta = {
-            title: 'Files | Rotary International Convention Toronto 2018 (June 23-27)',
-            description: 'I am a description, and I can create multiple tags',
-            canonical: 'http://rotary2018.org/hof',
-            meta: {
-                charset: 'utf-8',
-                name: {
-                    keywords: 'react,meta,document,html,tags',
-                    'twitter:card': '',
-                    'twitter:site': '',
-                    'twitter:title': '',
-                    'twitter:description': '',
-                    'twitter:image': ''
-                },
-                property: {
-                    'og:title': 'OG Title',
-                    'og:image': 'OG',
-                    'og:url': 'OG',
-                    'og:site_name': 'OG',
-                    'og:description': 'OG'
-                }
-            }
+            title: 'Thanks | Rotary International Convention Toronto 2018 (June 23-27)'
         };
 
         return (
@@ -38,13 +18,14 @@ class Files extends Component {
                             <div className="col-md-12">
                                 <div className="page-header">
                                     <h1>
-                                        HOC File
-                                        <small>Here are some useful files fform the HOC</small>
+                                        Email submitted
+                                        <small>Your email has been sent to the HOC</small>
                                     </h1>
                                 </div>
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <p>Files will be posted soon.</p>
+                                        <p>Thank you for contacting the Rotary 2018 Host Organizing Committee. Someone will get back
+                                            to you soon.</p>
                                     </div>
                                 </div>
                             </div>
@@ -57,4 +38,4 @@ class Files extends Component {
     }
 }
 
-export default Files;
+export default Thanks;

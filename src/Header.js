@@ -36,8 +36,8 @@ class Header extends Component {
                         <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span> </button>
 
                         <div className="navbar-text social-media social-media-inline pull-right">
-                            <a href="https://twitter.com/RotaryTO2018"><i className="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/RotaryTO2018/"><i className="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/RotaryTO2018"><i className="fa fa-twitter"></i></a>&nbsp;
+                            <a href="https://www.facebook.com/RotaryTO2018/"><i className="fa fa-facebook"></i></a>&nbsp;
                             <a href="https://www.instagram.com/RotaryTO2018/"><i className="fa fa-instagram"></i></a>
                         </div>
 

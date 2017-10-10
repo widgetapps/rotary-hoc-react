@@ -36,7 +36,17 @@ class About extends Component {
                     <div className="container" id="about">
                         <div className="row">
                             <div className="col-md-12">
-                                ABOUT
+                                <div className="page-header">
+                                    <h1>
+                                        About the HOC
+                                        <small>Toronto 2018 Host Organizing Committee</small>
+                                    </h1>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <p>HOC details will be posted soon.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

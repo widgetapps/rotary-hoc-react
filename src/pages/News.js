@@ -11,25 +11,26 @@ class News extends Component {
     render() {
         const meta = {
             title: 'News | Rotary International Convention Toronto 2018 (June 23-27)',
-            description: 'I am a description, and I can create multiple tags',
-            canonical: 'http://rotary2018.org/news',
+            description: 'Keep up to date on everything happening for the 2018 Rotary Convention in Toronto.',
+            canonical: '/news',
             meta: {
                 name: {
-                    keywords: 'react,meta,document,html,tags',
-                    'twitter:card': '',
-                    'twitter:site': '',
-                    'twitter:title': '',
-                    'twitter:description': '',
-                    'twitter:image': ''
+                    keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee, news',
+                    'twitter:card': 'summary',
+                    'twitter:site': '@RotaryTO2018',
+                    'twitter:title': 'News | Rotary International Convention Toronto 2018 (June 23-27)',
+                    'twitter:description': 'Keep up to date on everything happening for the 2018 Rotary Convention in Toronto.',
+                    'twitter:image': '/img/c18toronto_logo.png'
                 },
                 property: {
-                    'og:title': 'OG Title',
-                    'og:image': 'OG',
-                    'og:url': 'OG',
-                    'og:site_name': 'OG',
-                    'og:description': 'OG'
+                    'og:title': 'News | Rotary International Convention Toronto 2018 (June 23-27)',
+                    'og:type': 'website',
+                    'og:image': '/img/c18toronto_logo.png',
+                    'og:url': 'http://rotary2018.org/news',
+                    'og:description': 'Keep up to date on everything happening for the 2018 Rotary Convention in Toronto.'
                 }
-            }};
+            }
+        };
 
         let number = parseInt(this.props.match.params.number, 10);
         if (!number || number < 1 || number > DataNews.articles.length) {
@@ -58,7 +59,7 @@ class News extends Component {
                                     <ul className="nav nav-pills nav-stacked">
                                         {
                                             DataNews.all().map(n => (
-                                                <li key={n.number} className={n.number == number?'active':'notactive'}>
+                                                <li key={n.number} className={n.number === number?'active':'notactive'}>
                                                     <Link to={`/news/${n.number}`}>
                                                         {n.title}
                                                         <small>Posted {n.date}</small>

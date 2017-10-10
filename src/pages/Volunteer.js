@@ -8,24 +8,23 @@ class Volunteer extends Component {
     render() {
         const meta = {
             title: 'Volunteer | Rotary International Convention Toronto 2018 (June 23-27)',
-            description: 'I am a description, and I can create multiple tags',
-            canonical: 'http://rotary2018.org/hof',
+            description: 'Find out how you can help at the 2018 Rotary Convention in Toronto.',
+            canonical: '/volunteer',
             meta: {
-                charset: 'utf-8',
                 name: {
-                    keywords: 'react,meta,document,html,tags',
-                    'twitter:card': '',
-                    'twitter:site': '',
-                    'twitter:title': '',
-                    'twitter:description': '',
-                    'twitter:image': ''
+                    keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee, volunteer',
+                    'twitter:card': 'summary',
+                    'twitter:site': '@RotaryTO2018',
+                    'twitter:title': 'Volunteer | Rotary International Convention Toronto 2018 (June 23-27)',
+                    'twitter:description': 'Find out how you can help at the 2018 Rotary Convention in Toronto.',
+                    'twitter:image': '/img/c18toronto_logo.png'
                 },
                 property: {
-                    'og:title': 'OG Title',
-                    'og:image': 'OG',
-                    'og:url': 'OG',
-                    'og:site_name': 'OG',
-                    'og:description': 'OG'
+                    'og:title': 'Volunteer | Rotary International Convention Toronto 2018 (June 23-27)',
+                    'og:type': 'website',
+                    'og:image': '/img/c18toronto_logo.png',
+                    'og:url': 'http://rotary2018.org/volunteer',
+                    'og:description': 'Find out how you can help at the 2018 Rotary Convention in Toronto.'
                 }
             }
         };

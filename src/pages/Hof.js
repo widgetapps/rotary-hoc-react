@@ -7,24 +7,23 @@ class Hof extends Component {
     render() {
         const meta = {
             title: 'House of Friendship | Rotary International Convention Toronto 2018 (June 23-27)',
-            description: 'I am a description, and I can create multiple tags',
-            canonical: 'http://rotary2018.org/hof',
+            description: 'See what is being planned for the House of Friendship at the 2018 Rotary Convention in Toronto.',
+            canonical: '/hof',
             meta: {
-                charset: 'utf-8',
                 name: {
-                    keywords: 'react,meta,document,html,tags',
-                    'twitter:card': '',
-                    'twitter:site': '',
-                    'twitter:title': '',
-                    'twitter:description': '',
-                    'twitter:image': ''
+                    keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee, house of friendship',
+                    'twitter:card': 'summary',
+                    'twitter:site': '@RotaryTO2018',
+                    'twitter:title': 'House of Friendship | Rotary International Convention Toronto 2018 (June 23-27)',
+                    'twitter:description': 'See what is being planned for the House of Friendship at the 2018 Rotary Convention in Toronto.',
+                    'twitter:image': '/img/c18toronto_logo.png'
                 },
                 property: {
-                    'og:title': 'OG Title',
-                    'og:image': 'OG',
-                    'og:url': 'OG',
-                    'og:site_name': 'OG',
-                    'og:description': 'OG'
+                    'og:title': 'House of Friendship | Rotary International Convention Toronto 2018 (June 23-27)',
+                    'og:type': 'website',
+                    'og:image': '/img/c18toronto_logo.png',
+                    'og:url': 'http://rotary2018.org/hof',
+                    'og:description': 'See what is being planned for the House of Friendship at the 2018 Rotary Convention in Toronto.'
                 }
             }
         };
@@ -47,8 +46,8 @@ class Hof extends Component {
                                             Rotary Fellowships, and Rotarian Action Groups. Shop for Rotary-licensed merchandise,
                                             including pins, shirts, and banners. Meet with staff in the Resource Center about
                                             Rotary's programs and services.</p>
-                                        <p>If you are interested in having a booth in the 2018 House of Friendship, please email us at
-                                            <a href="mailto:exhibitors@rotary2018.org">exhibitors@rotary2018.org</a>.</p>
+                                        <p><em>If you are interested in having a booth in the 2018 House of Friendship, please email us
+                                            at <a href="mailto:exhibitors@rotary2018.org">exhibitors@rotary2018.org</a>.</em></p>
                                         <div class="services block block-bg-gradient block-border-bottom">
                                             <div class="row">
                                                 <div class="col-md-4 text-center">
