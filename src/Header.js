@@ -35,12 +35,6 @@ class Header extends Component {
                     <div className="navbar navbar-default">
                         <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span> </button>
 
-                        <div className="navbar-text social-media social-media-inline pull-right">
-                            <a href="https://twitter.com/RotaryTO2018"><i className="fa fa-twitter"></i></a>&nbsp;
-                            <a href="https://www.facebook.com/RotaryTO2018/"><i className="fa fa-facebook"></i></a>&nbsp;
-                            <a href="https://www.instagram.com/RotaryTO2018/"><i className="fa fa-instagram"></i></a>
-                        </div>
-
                         <div className="navbar-collapse collapse">
                             <ul className="nav navbar-nav" id="main-menu">
                                 <li className="icon-link">
@@ -50,6 +44,7 @@ class Header extends Component {
                                 <li><Link to="/events/hoc/1">Events</Link></li>
                                 <li><Link to="/news">News</Link></li>
                                 <li><Link to="/hof">House of Friendship</Link></li>
+                                <li><a href="https://toronto-2018-rotary-convention.myshopify.com/" target="shop">Shop</a></li>
                                 <li className="dropdown dropdown-mm">
                                     <a href="#" className="dropdown-toggle" data-toggle="dropdown">HOC<b className="caret"></b></a>
 
