@@ -5,9 +5,13 @@ import './Header.css';
 
 class Footer extends Component {
     render() {
-        let submitForm = function(){
-            var action = 'https://formspree.io/' + document.getElementById('contactreason').value;
-            document.getElementById('contactform').action = action;
+        let submitForm = function(e){
+            if (document.getElementById('contactreason').value === 0) {
+                e.preventDefault();
+                return false;
+            }
+
+            document.getElementById('contactform').action = 'https://formspree.io/' + document.getElementById('contactreason').value;
             //alert('https://formspree.io/' + document.getElementById('contactreason').value);
         };
 
@@ -50,18 +54,18 @@ class Footer extends Component {
                                     <div className="validation"></div>
                                 </div>
                                 <div className="form-group">
-                                    <select class="form-control" name="reason" id="contactreason">
+                                    <select className="form-control" name="reason" id="contactreason">
                                         <option value="0">What is your email regarding...</option>
-                                        <option value="accommodations@rotary2018.org">Accommodations</option>
-                                        <option value="clothing@rotary2018.org">Clothing</option>
-                                        <option value="registration@rotary2018.org">Convention Registration</option>
-                                        <option value="exhibitors@rotary2018.org">Exhibitors</option>
-                                        <option value="hosthospitality@rotary2018.org">Host Hospitality</option>
-                                        <option value="hofsupport@rotary2018.org">House of Friendship Support</option>
-                                        <option value="sponsors@rotary2018.org">Sponsorship</option>
-                                        <option value="events@rotary2018.org">Ticketed Events</option>
-                                        <option value="volunteer@rotary2018.org">Volunteering</option>
-                                        <option value="info@rotary2018.org">General Inquiry</option>
+                                        <option value="xbgzpwam">Accommodations</option>
+                                        <option value="xjyaplpm">Clothing</option>
+                                        <option value="xyenboqx">Convention Registration</option>
+                                        <option value="mdewpbyx">Exhibitors</option>
+                                        <option value="xqpygnjm">Host Hospitality</option>
+                                        <option value="maeplvvm">House of Friendship Support</option>
+                                        <option value="moekpbqm">Sponsorship</option>
+                                        <option value="mwlrwybx">Ticketed Events</option>
+                                        <option value="xganpqvx">Volunteering</option>
+                                        <option value="mvkwvlax">General Inquiry</option>
                                     </select>
                                     <div className="validation"></div>
                                 </div>
@@ -74,7 +78,7 @@ class Footer extends Component {
                                     <div className="validation"></div>
                                 </div>
                                 <div className="text-center"><button type="submit">Send Message</button></div>
-                                <input type="text" name="_gotcha" className="hidden" />
+                                <input type="text" name="_gotcha" style="display: none" />
                                 <input type="hidden" name="_next" value="http://rotary2018.org/thanks" />
                             </form>
                         </div>
