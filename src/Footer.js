@@ -5,6 +5,12 @@ import './Header.css';
 
 class Footer extends Component {
     render() {
+        let submitForm = function(){
+            var action = 'https://formspree.io/' + document.getElementById('contactreason').value;
+            document.getElementById('contactform').action = action;
+            //alert('https://formspree.io/' + document.getElementById('contactreason').value);
+        };
+
         return (
             <div>
             <div className="block block-pd-sm block-bg-primary">
@@ -34,13 +40,29 @@ class Footer extends Component {
                         <div className="form">
                             <div id="sendmessage">Your message has been sent. Thank you!</div>
                             <div id="errormessage"></div>
-                            <form action="https://formspree.io/info@rotary2018.org" method="post" role="form" className="contactForm">
+                            <form id="contactform" action="" onSubmit={submitForm} method="post" role="form" className="contactForm">
                                 <div className="form-group">
                                     <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                                     <div className="validation"></div>
                                 </div>
                                 <div className="form-group">
                                     <input type="email" className="form-control" name="_replyto" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div className="validation"></div>
+                                </div>
+                                <div className="form-group">
+                                    <select class="form-control" name="reason" id="contactreason">
+                                        <option value="0">What is your email regarding...</option>
+                                        <option value="accommodations@rotary2018.org">Accommodations</option>
+                                        <option value="clothing@rotary2018.org">Clothing</option>
+                                        <option value="registration@rotary2018.org">Convention Registration</option>
+                                        <option value="exhibitors@rotary2018.org">Exhibitors</option>
+                                        <option value="hosthospitality@rotary2018.org">Host Hospitality</option>
+                                        <option value="hofsupport@rotary2018.org">House of Friendship Support</option>
+                                        <option value="sponsors@rotary2018.org">Sponsorship</option>
+                                        <option value="events@rotary2018.org">Ticketed Events</option>
+                                        <option value="volunteer@rotary2018.org">Volunteering</option>
+                                        <option value="info@rotary2018.org">General Inquiry</option>
+                                    </select>
                                     <div className="validation"></div>
                                 </div>
                                 <div className="form-group">
