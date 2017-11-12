@@ -78,7 +78,7 @@ class Footer extends Component {
                                     <div className="validation"></div>
                                 </div>
                                 <div className="text-center"><button type="submit">Send Message</button></div>
-                                <input type="text" name="_gotcha" style="display: none" />
+                                <input type="text" name="_gotcha" className="hidden" />
                                 <input type="hidden" name="_next" value="http://rotary2018.org/thanks" />
                             </form>
                         </div>
