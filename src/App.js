@@ -12,6 +12,7 @@ import Host from './pages/Host';
 import Files from './pages/Files';
 import About from './pages/About';
 import Thanks from './pages/Thanks';
+import ClubEvent from './pages/ClubEvent';
 
 class App extends Component {
     render() {
@@ -36,6 +37,7 @@ class App extends Component {
                         <Route path="/files" component={Files}/>
                         <Route path="/about" component={About}/>
                         <Route path="/thanks" component={Thanks}/>
+                        <Route path="clubevent" component={ClubEvent}/>
                     </Switch>
                     <Footer />
                 </DocumentMeta>

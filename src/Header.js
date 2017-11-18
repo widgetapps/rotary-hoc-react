@@ -62,6 +62,7 @@ class Header extends Component {
                                             </ul>
                                             <ul className="col-md-4">
                                                 <li className="dropdown-header">HOC Resources</li>
+                                                <li><Link to="/clubevent">Post a Club Event</Link></li>
                                                 <li><Link to="/files">Files</Link></li>
                                                 <li><Link to="/about">About the HOC</Link></li>
                                             </ul>
