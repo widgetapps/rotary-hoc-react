@@ -37,7 +37,7 @@ class App extends Component {
                         <Route path="/files" component={Files}/>
                         <Route path="/about" component={About}/>
                         <Route path="/thanks" component={Thanks}/>
-                        <Route path="clubevent" component={ClubEvent}/>
+                        <Route path="/clubevent" component={ClubEvent}/>
                     </Switch>
                     <Footer />
                 </DocumentMeta>

@@ -1,94 +1,97 @@
 [
   {
     "id": 1,
-    "datetime": "2018-06-23 12:00:00",
+    "starttime": "2018-06-23 19:00:00",
+    "endtime": "2018-06-23 23:00:00",
     "type": "hoc",
-    "name": "Test Event HOC",
-    "byline": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
-    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
-    "price": 99.00,
-    "pricedetails": "",
+    "name": "Jazz at the Aquarium",
+    "byline": "A wondrous evening of Music, Food and Entertainment at Toronto’s renowned Ripley’s Aquarium.",
+    "description": "Ripley’s Aquarium of Canada is a tropical reef with habitats of colourful coral, sea turtles, and sharks in a moonlight setting. Check out the awe inspiring exhibits: Canadian Waters Gallery, Rainbow Reef, Dangerous Lagoon, Discovery Centre, Ray Bay, Planet Jellies…and more! You are invited to a musical underwater adventure in the heart of downtown Toronto. Your selfies of sea creatures will come alive with a side of jazz, food and drinks. The live music of “Lady Be Good” Jazz Band featuring classical jazz, soulful RnB and modern pop will serenade you throughout the evening. All this complimented by a unique foodie menu designed to reflect the diversity of Toronto’s communities. Classic braised beef, complex Asian fare and unforgettable vegetarian curry with decadent desserts will impress your taste buds while the majesty of the Aquarium’s aquatic residents fill you with awe.",
+    "gettingthere": "The aquarium is right beside the Metro Convention Center home of Toronto 2018.",
+    "price": 120.00,
+    "pricedetails": "CAD (approximately $100 USD*) including all fees and taxes.",
     "image": {
-      "listing": "",
-      "page": ""
+      "listing": "/img/events/ripleys_listing.jpg",
+      "page": "/img/events/ripleys_page.jpg"
     },
     "venue": {
-      "name": "Distillery District",
-      "address": "Corner of Parliament Steet and Mill Street.",
-      "details": "The pedestrian-only Distillery District, set in quaint 19th century buildings that once housed a large whiskey distillery, draws crowds to its cobblestone streets lined with hip indie restaurants, bars and boutiques.",
-      "map": "https://goo.gl/maps/GnXSPeQX9nA2"
+      "name": "Ripley’s Aquarium of Canada",
+      "address": "288 Bremner Blvd, Toronto, ON M5V 3L9",
+      "details": "Ripley’s Aquarium of Canada is the home of 16,000 aquatic animals and features North America’s longest underwater viewing tunnel with more than 5.7 million liters of water and over 100 interactive opportunities. This attraction in the heart of Toronto consists of nine curated galleries with saltwater and freshwater environments from around the world, including an exhibit of the Great Lakes basin.",
+      "website": "http://www.ripleyaquariums.com/canada/",
+      "map": "https://goo.gl/maps/oknr5EtryZm"
     },
-    "eventlink": "https://www.eventbrite.ca/e/hoc-test-event-listing-tickets-38656445469"
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035"
   },
   {
     "id": 2,
-    "datetime": "2018-06-24 12:00:00",
-    "type": "pre",
-    "name": "Test Event PRE",
-    "byline": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
-    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
-    "price": 45.00,
-    "venue": {
-      "name": "Venue Name",
-      "address": "",
-      "details": "",
-      "map": ""
+    "starttime": "2018-06-23 18:00:00",
+    "endtime": "2018-06-23 22:00:00",
+    "type": "hoc",
+    "name": "Rock at the Historic Distillery District",
+    "byline": "A fun filled evening of food, entertainment and partying in Toronto’s Historic Distillery District.",
+    "description": "The Distillery District is an inspired blend of Victorian Industrial architecture and stunning 21st century design and creativity. The result is an internationally acclaimed village of one-of-a-kind stores, shops, galleries, studios, restaurants, cafes, theatres and more. Join us for an evening of food, attractions, live country and rock music, and shopping at quaint shops. Create memories highlighting the architectural beauty of this 185 year old National Historic site!! Admission is all inclusive, with truly delicious food, attractions and entertainment. The Menu includes an array of delectable food….Archeo offers an Italian inspired menu, El Catrin delivers both traditional and modern Mexican cuisine, Pure Spirits Oyster House and Grill specializes in fresh fish and oysters,  Cluny Bistro and Boulangerie shares a wonderful world of French inspired food with a twist. There will be oysters, paella, poutine, tacos, s’mores, popcorn, cotton candy and more to feast upon, served from Market Huts set up in Trinity Square in the Distillery District. Live Country and Rock music will complete the warm summer evening while you eat, walk, talk, rest and shop or dance in the square!",
+    "gettingthere": "A 20 minute walk or 10 minute TTC bus ride right to the front gate from the Toronto 2018 Venues.",
+    "price": 120.00,
+    "pricedetails": "CAD ($100 USD*) including all fees and taxes",
+    "image": {
+      "listing": "/img/events/distillery_listing.jpg",
+      "page": "/img/events/distillery_page.jpg"
     },
-    "eventlink": ""
+    "venue": {
+      "name": "The Distillery District",
+      "address": "55 Mill St, Toronto, ON M5A",
+      "details": "Nearly 20 years ago a small group of visionary developers had a dream for Toronto. They looked at a collection of Victorian Industrial buildings that had been pronounced a national historic site and imagined transforming it. But not just simply into another “historic district” or “pioneer village”, but into something exciting and unique. What you will find is the perfect fusion of old and new. An inspired blend of Victorian Industrial architecture and stunning 21st century design and creativity. The result is an internationally acclaimed village of stores, shops, galleries, studios, restaurants, cafes, theatres and more.",
+      "website": "http://www.thedistillerydistrict.com",
+      "map": "https://goo.gl/maps/dZNibjaS4qT2"
+    },
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035"
   },
   {
     "id": 3,
-    "datetime": "2018-06-23 09:00:00",
-    "type": "post",
-    "name": "Test Event POST",
-    "byline": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
-    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
-    "price": 30.00,
-    "venue": {
-      "name": "Venue Name",
-      "address": "",
-      "details": "",
-      "map": ""
+    "starttime": "2018-06-26 16:00:00",
+    "endtime": "2018-06-26 22:00:00",
+    "type": "hoc",
+    "name": "ROTARYFEST",
+    "byline": "The Toronto 2018 HOC invites you along with your Rotary family and friends to experience the diversity and multi culturalism of our host city at our ultimate ticketed event ROTARYFEST.",
+    "description": "Spectacular Fireworks - Canadian Heritage Featured Events - Fantastic Entertainment and Music - Foods and treats from all around the world - Transportation to and from ROTARYFEST - A delicious meal (featuring Chicken & Ribs, Halal Chicken and = Vegetarian Selections and much more) - A complimentary soft drink, beer or wine - An experience of a lifetime. Come and have fun with us. Let’s congratulate our Rotary President, Ian Riseley and his terrific wife Juliet on one of the best Rotary Years ever.",
+    "gettingthere": "ROTARYFEST is being held at the Canadian National Exhibition Centre. One GO Train Station west of the Toronto 2018 venues.",
+    "price": 90.00,
+    "pricedetails": "CAD (approximately ($75 USD*) including all fees and taxes.",
+    "image": {
+      "listing": "/img/events/exhibition_listing.jpg",
+      "page": "/img/events/exhibition_page.jpg"
     },
-    "eventlink": ""
+    "venue": {
+      "name": "Exhibition Place",
+      "address": "100 Princes' Blvd, Toronto, ON M6K 3C3",
+      "details": "Exhibition Place is a leading destination for trade and consumer shows, meetings, conferences, conventions and community space. Attracting more then 5.5 million visitors a year we offer convention, exhibition and conference venues, sporting facilities, restaurants, nightclubs, and attractions in a beautiful 192 acre parkland.",
+      "website": "http://explace.on.ca",
+      "map": "https://goo.gl/maps/1WWm5ohany92"
+    },
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035"
   },
   {
     "id": 4,
-    "datetime": "2018-06-23 12:00:00",
+    "starttime": "2018-06-25 16:00:00",
+    "endtime": "2018-06-25 22:00:00",
     "type": "hoc",
-    "name": "Test Event HOC 2",
-    "byline": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
-    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
-    "price": 99.00,
-    "pricedetails": "",
-    "venue": {
-      "name": "Steam Whistle Brewery",
-      "address": "255 Bremner Blvd, Toronto, ON M5V 3M9",
-      "details": "Pilsner brewery in a historic brick railway roundhouse offering tours with tastings and a store.",
-      "map": "https://goo.gl/maps/tqtLEiv4rLQ2"
+    "name": "Host Hospitality",
+    "byline": "A fantastic evening of fellowship where you are hosted by local Rotarians.",
+    "description": "Enjoy an evening of fun and fellowship as you are hosted by local Rotarians either in their own home or at a select venue. The evening will include a wonderful meal, something to drink and memories of a lifetime.",
+    "gettingthere": "Your hosts will be arranging your transport to and from the Toronto 2018 Venues or your hotel.",
+    "price": 43.00,
+    "pricedetails": "CAD ($36 USD*) including all fees and taxes",
+    "image": {
+      "listing": "/img/events/hospitality_listing.jpg",
+      "page": "/img/events/hospitality_page.jpg"
     },
-    "eventlink": "https://www.eventbrite.ca/e/hoc-test-event-listing-tickets-38656445469"
-  },
-  {
-    "id": 5,
-    "datetime": "2018-06-23 12:00:00",
-    "type": "hoc",
-    "name": "Test Event HOC 3",
-    "byline": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam ac lectus cursus posuere id eu elit. Curabitur volutpat, nunc ut tempor pulvinar, arcu ipsum convallis diam, nec tempor augue ex eget magna. Proin urna metus, pulvinar nec nisi quis, scelerisque pellentesque diam.",
-    "gettingthere": "Praesent et arcu diam. Etiam venenatis malesuada dictum. Duis gravida finibus mi ut mollis.",
-    "price": 65.00,
-    "pricedetails": "",
     "venue": {
-      "name": "Ripley's Aquarium of Canada",
-      "address": "288 Bremner Blvd, Toronto, ON M5V 3L9",
-      "details": "Expansive, modern aquarium with many species & habitats on display, plus events & classes.",
-      "map": "https://goo.gl/maps/JAJMVUmuAMz"
+      "name": "N/A",
+      "address": "N/A",
+      "details": "N/A",
+      "map": "N/A"
     },
-    "eventlink": "https://www.eventbrite.ca/e/hoc-test-event-listing-tickets-38656445469"
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035"
   }
 ]

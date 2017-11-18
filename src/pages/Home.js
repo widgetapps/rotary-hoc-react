@@ -5,6 +5,7 @@ import DocumentMeta from 'react-document-meta';
 import BodyClassName from 'react-body-classname';
 import DataNews from '../data/DataNews';
 import DataEvents from '../data/DataEvent';
+import moment from 'moment';
 
 class Home extends Component {
     render() {
@@ -68,6 +69,35 @@ class Home extends Component {
                                     Find inspiration on every block, in every street, and around every corner in Toronto.
                                     See what we have planned for convention visitors.
                                 </h2>
+                            </div>
+                        </div>
+                        <div className="block block-border-bottom-grey">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <h2 className="block-title">
+                                            Host Ticketed Events
+                                        </h2>
+                                        <p>Toronto is known as a city of neighbourhoods, where every culture has a home.</p>
+                                    </div>
+                                </div>
+                                <div className="row is-flex">
+                                    {
+                                        DataEvents.all().filter(g => g.type === 'hoc').map(e => (
+
+                                            <div className="col-md-4 col-lg-3">
+                                                <div className="box">
+                                                    <img className="img-responsive img-rounded" src={e.image.listing} />
+                                                    <h3>{e.name}</h3>
+                                                    <p>{e.byline}</p>
+                                                    <p>Date: {moment(e.starttime).format("ddd, MMM Do, YYYY")}</p>
+                                                    <p>Time: {moment(e.starttime).format("hA")} to {moment(e.endtime).format("hA")}</p>
+                                                    <Link to={`/events/hoc/${e.id}`} className="btn btn-primary">Event Details</Link>
+                                                </div>
+                                            </div>
+                                        ))
+                                    }
+                                </div>
                             </div>
                         </div>
                         <div className="block block-border-bottom-grey">

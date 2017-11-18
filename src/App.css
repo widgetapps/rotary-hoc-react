@@ -26,3 +26,27 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.row.is-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.is-flex .box {
+    background: none;
+    position: static;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+.is-flex [class*="col-"] {
+    background: #fff;
+}
+
+.row.is-flex .box a {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+}

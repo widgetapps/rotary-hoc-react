@@ -3,6 +3,10 @@ import DocumentMeta from 'react-document-meta';
 import DataNews from '../data/DataNews';
 
 class Article extends Component {
+    componentDidMount () {
+        window.scrollTo(0, 0)
+    }
+
     render() {
 
 

@@ -8,6 +8,10 @@ import Event from './Event';
 import DataNews from "../data/DataNews";
 
 class Events extends Component {
+    componentDidMount () {
+        window.scrollTo(0, 0)
+    }
+
     render() {
 
         if (!this.props.match.params.type) {
@@ -46,11 +50,11 @@ class Events extends Component {
                 break;
             case 'pre':
                 type = 'pre';
-                number = 2;
+                number = 100;
                 break;
             case 'post':
                 type = 'post';
-                number = 3;
+                number = 200;
                 break;
             default:
                 number = parseInt(this.props.match.params.id, 10);
@@ -76,14 +80,34 @@ class Events extends Component {
                                 <div className="col-md-12">
                                     <div className="page-header">
                                         <h1>
-                                            Convention Events
-                                            <small>Event details will be posted soon</small>
+                                            Host Ticketed Events
+                                            <small>Explore the many events of the convention</small>
                                         </h1>
                                     </div>
                                     <div className="row">
-                                        <div className="col-md-12">
-                                            <p>The HOC committee is working to get events posted very soon.</p>
-                                            <Link to="/news/1" className="btn btn-more i-right">Learn More <i className="fa fa-plus"></i></Link>
+                                        <div className="col-md-9 col-md-push-3">
+                                            <Event number={number} />
+                                        </div>
+                                        <div className="col-md-3 col-md-pull-9 sidebar">
+                                            <h5>Select Convention Event Timing:</h5>
+                                            <div className="btn-group btn-group-justified" role="group" aria-label="Event types">
+                                                <Link to="/events/pre/100" type="button" className={`btn btn-default ${type === 'pre'?'active':'notactive'}`}>Pre</Link>
+                                                <Link to="/events/hoc/1" type="button" className={`btn btn-default ${type === 'hoc'?'active':'notactive'}`}>During</Link>
+                                                <Link to="/events/post/200" type="button" className={`btn btn-default ${type === 'post'?'active':'notactive'}`}>Post</Link>
+                                            </div>
+                                            <h5>Available Events</h5>
+                                            <ul className="nav nav-pills nav-stacked">
+                                                {
+                                                    DataEvents.all().filter(g => g.type === type).map(e => (
+                                                        <li key={e.id} className={e.id === number?'active':'notactive'}>
+                                                            <Link to={`/events/${type}/${e.id}`}>
+                                                                {e.name}
+                                                                <small>Price ${e.price}</small>
+                                                            </Link>
+                                                        </li>
+                                                    ))
+                                                }
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
