@@ -6,6 +6,7 @@ import BodyClassName from 'react-body-classname';
 import DataEvents from '../data/DataEvent';
 import Event from './Event';
 import DataNews from "../data/DataNews";
+import moment from "moment/moment";
 
 class Events extends Component {
     componentDidMount () {
@@ -102,7 +103,7 @@ class Events extends Component {
                                                         <li key={e.id} className={e.id === number?'active':'notactive'}>
                                                             <Link to={`/events/${type}/${e.id}`}>
                                                                 {e.name}
-                                                                <small>Price ${e.price}</small>
+                                                                <small>{moment(e.starttime).format("ddd, MMM Do, YYYY")} {moment(e.starttime).format("hA")} to {moment(e.endtime).format("hA")}</small>
                                                             </Link>
                                                         </li>
                                                     ))

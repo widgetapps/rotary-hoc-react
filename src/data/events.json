@@ -12,7 +12,8 @@
     "pricedetails": "CAD (approximately $100 USD*) including all fees and taxes.",
     "image": {
       "listing": "/img/events/ripleys_listing.jpg",
-      "page": "/img/events/ripleys_page.jpg"
+      "page": "/img/events/ripleys_page.jpg",
+      "venue": "/img/events/ripleys_listing.jpg"
     },
     "venue": {
       "name": "Ripley’s Aquarium of Canada",
@@ -36,7 +37,8 @@
     "pricedetails": "CAD ($100 USD*) including all fees and taxes",
     "image": {
       "listing": "/img/events/distillery_listing.jpg",
-      "page": "/img/events/distillery_page.jpg"
+      "page": "/img/events/distillery_page.jpg",
+      "venue": "/img/events/distillery_listing.jpg"
     },
     "venue": {
       "name": "The Distillery District",
@@ -60,7 +62,8 @@
     "pricedetails": "CAD (approximately ($75 USD*) including all fees and taxes.",
     "image": {
       "listing": "/img/events/exhibition_listing.jpg",
-      "page": "/img/events/exhibition_page.jpg"
+      "page": "/img/events/exhibition_page.jpg",
+      "venue": "/img/events/exhibition_listing.jpg"
     },
     "venue": {
       "name": "Exhibition Place",
@@ -84,7 +87,8 @@
     "pricedetails": "CAD ($36 USD*) including all fees and taxes",
     "image": {
       "listing": "/img/events/hospitality_listing.jpg",
-      "page": "/img/events/hospitality_page.jpg"
+      "page": "/img/events/hospitality_page.jpg",
+      "venue": "/img/events/hospitality_listing.jpg"
     },
     "venue": {
       "name": "N/A",
