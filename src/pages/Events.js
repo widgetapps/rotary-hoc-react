@@ -90,12 +90,6 @@ class Events extends Component {
                                             <Event number={number} />
                                         </div>
                                         <div className="col-md-3 col-md-pull-9 sidebar">
-                                            <h5>Select Convention Event Timing:</h5>
-                                            <div className="btn-group btn-group-justified" role="group" aria-label="Event types">
-                                                <Link to="/events/pre/100" type="button" className={`btn btn-default ${type === 'pre'?'active':'notactive'}`}>Pre</Link>
-                                                <Link to="/events/hoc/1" type="button" className={`btn btn-default ${type === 'hoc'?'active':'notactive'}`}>During</Link>
-                                                <Link to="/events/post/200" type="button" className={`btn btn-default ${type === 'post'?'active':'notactive'}`}>Post</Link>
-                                            </div>
                                             <h5>Available Events</h5>
                                             <ul className="nav nav-pills nav-stacked">
                                                 {
