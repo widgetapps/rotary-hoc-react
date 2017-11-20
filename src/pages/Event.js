@@ -19,7 +19,6 @@ class Event extends Component {
 
     componentWillReceiveProps(nextProps) {
 
-        console.log(nextProps.number);
         let event = DataEvent.get(
             parseInt(nextProps.number, 10)
         );
