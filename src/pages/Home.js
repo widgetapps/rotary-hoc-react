@@ -87,12 +87,12 @@ class Home extends Component {
 
                                             <div className="col-md-4 col-lg-3">
                                                 <div className="box">
-                                                    <img className="img-responsive img-rounded" src={e.image.listing} />
+                                                    <Link to={`/events/hoc/${e.id}`} ><img className="img-responsive img-rounded" border="0" src={e.image.listing} /></Link>
                                                     <h3>{e.name}</h3>
                                                     <p>{e.byline}</p>
                                                     <p>Date: {moment(e.starttime).format("ddd, MMM Do, YYYY")}</p>
                                                     <p>Time: {moment(e.starttime).format("hA")} to {moment(e.endtime).format("hA")}</p>
-                                                    <Link to={`/events/hoc/${e.id}`} className="btn btn-primary">Event Details</Link>
+                                                    <Link to={`/events/hoc/${e.id}`} className="btn btn-primary anchor">Event Details</Link>
                                                 </div>
                                             </div>
                                         ))

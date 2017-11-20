@@ -45,7 +45,7 @@
     background: #fff;
 }
 
-.row.is-flex .box a {
+.row.is-flex .box a.anchor {
     position: absolute;
     bottom: 0;
     width: 95%;
