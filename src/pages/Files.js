@@ -39,7 +39,7 @@ class Files extends Component {
                                 <div className="page-header">
                                     <h1>
                                         HOC File
-                                        <small>Here are some useful files fform the HOC</small>
+                                        <small>Here are some useful files form the HOC</small>
                                     </h1>
                                 </div>
                                 <div className="row">

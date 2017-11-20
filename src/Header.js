@@ -71,7 +71,7 @@ class Header extends Component {
                                             <div className="row">
                                                 <div className="col-md-7">The HOC is looking for input from Rotarians. <strong>Send us your ideas.</strong></div>
                                                 <div className="col-md-5">
-                                                    <a href="ideas.html" className="btn btn-more btn-lg pull-right"><i className="fa fa-commenting"></i> Submit Ideas</a>
+                                                    <a href="/ideas" className="btn btn-more btn-lg pull-right"><i className="fa fa-commenting"></i> Submit Ideas</a>
                                                 </div>
                                             </div>
                                         </li>

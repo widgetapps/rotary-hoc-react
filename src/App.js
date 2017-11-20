@@ -13,6 +13,7 @@ import Files from './pages/Files';
 import About from './pages/About';
 import Thanks from './pages/Thanks';
 import ClubEvent from './pages/ClubEvent';
+import Ideas from './pages/Ideas';
 
 class App extends Component {
     render() {
@@ -38,6 +39,7 @@ class App extends Component {
                         <Route path="/about" component={About}/>
                         <Route path="/thanks" component={Thanks}/>
                         <Route path="/clubevent" component={ClubEvent}/>
+                        <Route path="/ideas" component={Ideas}/>
                     </Switch>
                     <Footer />
                 </DocumentMeta>

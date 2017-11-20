@@ -124,30 +124,219 @@
   },
   {
     "id": 17,
-    "type": "event1",
-    "question": "If we have friends in Rotary can they be added to our group?",
-    "answer": "Yes, you may add them to your guest list but they will not be part of our Host Hospitality list of people , who we identify as being your guests.",
+    "type": "event4",
+    "question": "How can I sign up as a guest?",
+    "answer": "Just click on Events in the main menu above, then click on Host Hospitality and then click on Buy Now.",
     "links": []
   },
   {
     "id": 18,
-    "type": "event2",
-    "question": "If we have friends in Rotary can they be added to our group?",
-    "answer": "Yes, you may add them to your guest list but they will not be part of our Host Hospitality list of people , who we identify as being your guests.",
+    "type": "event4",
+    "question": "Can I register with my friends so we can attend the same event?",
+    "answer": "YES, We will do our best to keep you and your friends together as long as you all register at the same time.",
     "links": []
   },
   {
     "id": 19,
-    "type": "event3",
-    "question": "If we have friends in Rotary can they be added to our group?",
-    "answer": "Yes, you may add them to your guest list but they will not be part of our Host Hospitality list of people , who we identify as being your guests.",
+    "type": "event4",
+    "question": "Is transportation to and from the Host Hospitality event included?",
+    "answer": "Yes unless the venue is within easy walking distance.",
     "links": []
   },
   {
     "id": 20,
     "type": "event4",
-    "question": "If we have friends in Rotary can they be added to our group?",
-    "answer": "Yes, you may add them to your guest list but they will not be part of our Host Hospitality list of people , who we identify as being your guests.",
+    "question": "I have some mobility issues. Is there accommodation for people like me?",
+    "answer": "Yes, just let us know what they are when you register.",
+    "links": []
+  },
+  {
+    "id": 21,
+    "type": "event4",
+    "question": "I have specific food requests. Is there accommodation for people like me?",
+    "answer": "Yes, simply let us know about your dietary restrictions when you register.",
+    "links": []
+  },
+  {
+    "id": 22,
+    "type": "event4",
+    "question": "Is there a limit on the number of Host Hospitality tickets available?",
+    "answer": "YES, SO PLEASE REGISTER AS SOON AS POSSIBLE, AS THIS EVENT SELLS OUT QUICKLY.",
+    "links": []
+  },
+  {
+    "id": 23,
+    "type": "event1",
+    "question": "What events are taking place on Saturday Night?",
+    "answer": "There are two events taking place Jazz at the Aquarium and Rock at the Distillery DIstrict. This FAQ is about Jazz at the Aquarium.",
+    "links": []
+  },
+  {
+    "id": 24,
+    "type": "event1",
+    "question": "What is Aquarium?",
+    "answer": "Ripley’s Aquarium of Canada is the home of 16,000 aquatic animals and features North America’s longest underwater viewing tunnel with more than 5.7 million liters of water and over 100 interactive opportunities. It consists of nine curated galleries with saltwater and freshwater environments from around the world, including an exhibit of the Great Lakes basin.",
+    "links": []
+  },
+  {
+    "id": 25,
+    "type": "event1",
+    "question": "Is admission to the full Aquarium included as part of the event?",
+    "answer": "Yes.",
+    "links": []
+  },
+  {
+    "id": 26,
+    "type": "event1",
+    "question": "Is there a marine life show included as part of the event?",
+    "answer": "Yes, the divers go inside the tank to feed the animals and perform.",
+    "links": []
+  },
+  {
+    "id": 27,
+    "type": "event1",
+    "question": "How do I buy tickets for Jazz at the Aquarium?",
+    "answer": "Just click on Events in the main menu above, then click on Jazz at the Aquarium and then click on Buy Now.",
+    "links": []
+  },
+  {
+    "id": 28,
+    "type": "event1",
+    "question": "Can I register with my friends so we can attend the same event?",
+    "answer": "Yes, absolutely!",
+    "links": []
+  },
+  {
+    "id": 29,
+    "type": "event1",
+    "question": "Is transportation to and from Jazz at the Aquarium included?",
+    "answer": "It is a 2 minute walk (just next door) from the Metro Convention Center which is where the Convention is being hosted.",
+    "links": []
+  },
+  {
+    "id": 30,
+    "type": "event1",
+    "question": "I have some mobility issues. Is there accommodation for people like me?",
+    "answer": "Yes, absolutely!",
+    "links": []
+  },
+  {
+    "id": 31,
+    "type": "event1",
+    "question": "I have specific food requests. Is there accommodation for people like me?",
+    "answer": "Yes, a variety of food will be served.",
+    "links": []
+  },
+  {
+    "id": 32,
+    "type": "event1",
+    "question": "Is there a limit on the number of Jazz at the Aquarium tickets available?",
+    "answer": "Yes, only 1200 tickets available.",
+    "links": []
+  },
+  {
+    "id": 33,
+    "type": "event2",
+    "question": "What events are taking place on Saturday Night?",
+    "answer": "There are two events taking place Rock at the Distillery District and Jazz at the Aquarium. This FAQ is about the Rock at the Distillery District.",
+    "links": []
+  },
+  {
+    "id": 34,
+    "type": "event2",
+    "question": "What is the Distillery District?",
+    "answer": "It is an Architectural Wonder, the previous home of Gooderham and Wort’s Distillery, one of Canada’s first distilleries. Nearly 20 years ago a small group of visionary developers looked at a collection of Victorian industrial buildings that had been pronounced a historic site and imagined transforming it into something unique and exciting. What you will see is a fusion of old and new, an inspired blend of Victorian Industrial architecture and stunning 21st century designs and creativity. The result is an internationally acclaimed village of stores, shops, galleries, studios, restaurants, cafes, theaters and more.",
+    "links": []
+  },
+  {
+    "id": 35,
+    "type": "event2",
+    "question": "How do I buy tickets for Rock at the Distillery District?",
+    "answer": "Just click on Events in the main menu above, then click on Rock at the Historic Distillery District and then click on Buy Now.",
+    "links": []
+  },
+  {
+    "id": 36,
+    "type": "event2",
+    "question": "Can I register with my friends so we can attend the same event?",
+    "answer": "Yes, absolutely!",
+    "links": []
+  },
+  {
+    "id": 37,
+    "type": "event2",
+    "question": "Is transportation to and from Rock at the Distillery District included?",
+    "answer": "No, however it is a short stroll from the Convention Centre or a 10 minute ride on a TTC bus which will drop you off right at the entrance gate.",
+    "links": []
+  },
+  {
+    "id": 38,
+    "type": "event2",
+    "question": "I have some mobility issues. Is there accommodation for people like me?",
+    "answer": "Yes absolutely!",
+    "links": []
+  },
+  {
+    "id": 39,
+    "type": "event2",
+    "question": "I have specific food requests. Is there accommodation for people like me?",
+    "answer": "Yes, there will be a variety of food available.",
+    "links": []
+  },
+  {
+    "id": 40,
+    "type": "event2",
+    "question": "Is there a limit on the number of Rock at the Distillery District tickets available?",
+    "answer": "Yes, we are only selling 3000 tickets.",
+    "links": []
+  },
+  {
+    "id": 41,
+    "type": "event3",
+    "question": "What is ROTARYFEST?",
+    "answer": "ROTARYFEST is modeled on Rotary community celebrations held across Canada which feature BBQ foods and great entertainment. These celebrations make our local neighbourhoods better places in which to live, they unite us in celebration of family, shared values and community.",
+    "links": []
+  },
+  {
+    "id": 42,
+    "type": "event3",
+    "question": "How do I buy tickets for ROTARYFEST?",
+    "answer": "Just click on Events in the main menu above, then click on ROTARYFEST and then click on Buy Now.",
+    "links": []
+  },
+  {
+    "id": 43,
+    "type": "event3",
+    "question": "Can I register with my friends so we can attend the same event?",
+    "answer": "Yes absolutely!!",
+    "links": []
+  },
+  {
+    "id": 44,
+    "type": "event3",
+    "question": "Is transportation to and from ROTARYFEST included?",
+    "answer": "Yes, buses will depart from the Metro Convention center. Headquarters for Rotary Toronto 2018.",
+    "links": []
+  },
+  {
+    "id": 45,
+    "type": "event3",
+    "question": "I have some mobility issues. Is there accommodation for people like me?",
+    "answer": "Yes!",
+    "links": []
+  },
+  {
+    "id": 46,
+    "type": "event3",
+    "question": "I have specific food requests. Is there accommodation for people like me?",
+    "answer": "Yes, there will be a variety of food available, vegetarian and halal.",
+    "links": []
+  },
+  {
+    "id": 47,
+    "type": "event3",
+    "question": "Is there a limit on the number of ROTARYFEST tickets available?",
+    "answer": "Yes. We plan to welcome 5000 guests at ROTARYFEST.",
     "links": []
   }
 ]
