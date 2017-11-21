@@ -47,7 +47,7 @@ class News extends Component {
                                 <div className="page-header">
                                     <h1>
                                         HOC Convention News
-                                        <small>This is an awesome little news section tagline</small>
+                                        <small>Keep up to date on what's happening at the convention</small>
                                     </h1>
                                 </div>
                             </div>

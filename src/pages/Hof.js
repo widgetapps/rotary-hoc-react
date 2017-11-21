@@ -8,7 +8,7 @@ class Hof extends Component {
         const meta = {
             title: 'House of Friendship | Rotary International Convention Toronto 2018 (June 23-27)',
             description: 'See what is being planned for the House of Friendship at the 2018 Rotary Convention in Toronto.',
-            canonical: '/hof',
+            canonical: 'http://rotary2018.org/hof',
             meta: {
                 name: {
                     keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee, house of friendship',

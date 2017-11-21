@@ -25,10 +25,13 @@ class Article extends Component {
                 name: {
                     keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee, news',
                     'twitter:title': 'News - ' + article.title + ' | Rotary International Convention Toronto 2018 (June 23-27)',
-                    'twitter:description': article.content[0]
+                    'twitter:site': '@RotaryTO2018',
+                    'twitter:description': article.content[0],
+                    'twitter:image': '/img/c18toronto_logo.png'
                 },
                 property: {
                     'og:title': 'News - ' + article.title + ' | Rotary International Convention Toronto 2018 (June 23-27)',
+                    'og:image': '/img/c18toronto_logo.png',
                     'og:url': 'http://rotary2018.org/news/' + article.number,
                     'og:description': article.content[0]
                 }

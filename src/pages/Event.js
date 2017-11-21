@@ -57,12 +57,15 @@ class Event extends Component {
                 name: {
                     keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee, events',
                     'twitter:card': 'summary',
+                    'twitter:site': '@RotaryTO2018',
                     'twitter:title': 'Events - ' + this.state.event.name + ' | Rotary International Convention Toronto 2018 (June 23-27)',
-                    'twitter:description': this.state.event.description
+                    'twitter:description': this.state.event.description,
+                    'twitter:image': this.state.event.image.page
                 },
                 property: {
                     'og:title': 'Events - ' + this.state.event.name + ' | Rotary International Convention Toronto 2018 (June 23-27)',
                     'og:type': 'website',
+                    'og:image': this.state.event.image.page,
                     'og:url': 'http://rotary2018.org/events/' + this.state.event.id,
                     'og:description': this.state.event.description
                 }
@@ -97,8 +100,8 @@ class Event extends Component {
                         <h4>Event Details</h4>
                         <p>Date: {moment(this.state.event.starttime).format("ddd, MMM Do, YYYY")}</p>
                         <p>Time: {moment(this.state.event.starttime).format("hA")} to {moment(this.state.event.endtime).format("hA")}</p>
-                        <p><em className="lead">Price: ${this.state.event.price} CAD</em> (approximately ${usd.toFixed(2)} USD*) including all fees and taxes.</p>
-                        <small>* US currency based on the exchange rate of {this.state.exchange} in effect on {moment(this.state.exchangedate).format("MMM Do, YYYY")}, and customary credit card exchange fees<br/><br/></small>
+                        <p><em className="lead">Price: ${this.state.event.price} CAD</em> (approximately ${Math.round(usd)} USD*) including all fees and taxes.</p>
+                        <small>* US currency based on the current exchange rate of {this.state.exchange * 100}%.<br/><br/></small>
 
                         <a href={this.state.event.eventlink} className="btn btn-lg btn-more i-right">Buy Now <i className="fa fa-plus"></i></a>
 
@@ -148,8 +151,8 @@ class Event extends Component {
                         <h4>Event Details</h4>
                         <p>Date: {moment(this.state.event.starttime).format("ddd, MMM Do, YYYY")}</p>
                         <p>Time: {moment(this.state.event.starttime).format("hA")} to {moment(this.state.event.endtime).format("hA")}</p>
-                        <p><em className="lead">Price: ${this.state.event.price} CAD</em> (approximately ${usd.toFixed(2)} USD*) including all fees and taxes.</p>
-                        <small>* US currency based on the exchange rate of {this.state.exchange} in effect on {moment(this.state.exchangedate).format("MMM Do, YYYY")}, and customary credit card exchange fees<br/><br/></small>
+                        <p><em className="lead">Price: ${this.state.event.price} CAD</em> (approximately ${Math.round(usd)} USD*) including all fees and taxes.</p>
+                        <small>* US currency based on the current exchange rate of {this.state.exchange * 100}%.<br/><br/></small>
 
                         <a href={this.state.event.eventlink} className="btn btn-lg btn-more i-right">Buy Now <i className="fa fa-plus"></i></a>
 

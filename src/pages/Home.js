@@ -12,7 +12,7 @@ class Home extends Component {
         const meta = {
             title: 'Rotary International Convention Toronto 2018 (June 23-27)',
             description: 'There’s a world of opportunity waiting for you at the Toronto convention.',
-            canonical: '/',
+            canonical: 'http://rotary2018.org/',
             meta: {
                 name: {
                     keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee',

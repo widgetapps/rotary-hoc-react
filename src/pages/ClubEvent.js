@@ -7,24 +7,11 @@ class ClubEvent extends Component {
     render() {
         const meta = {
             title: 'Post Club Event | Rotary International Convention Toronto 2018 (June 23-27)',
-            description: 'I am a description, and I can create multiple tags',
+            description: 'Request to post a club event.',
             canonical: 'http://rotary2018.org/clubevent',
             meta: {
-                charset: 'utf-8',
-                name: {
-                    keywords: 'react,meta,document,html,tags',
-                    'twitter:card': '',
-                    'twitter:site': '',
-                    'twitter:title': '',
-                    'twitter:description': '',
-                    'twitter:image': ''
-                },
                 property: {
-                    'og:title': 'OG Title',
-                    'og:image': 'OG',
-                    'og:url': 'OG',
-                    'og:site_name': 'OG',
-                    'og:description': 'OG'
+                    'og:url': 'http://rotary2018.org/clubevent'
                 }
             }
         };

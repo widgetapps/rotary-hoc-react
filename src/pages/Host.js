@@ -9,7 +9,7 @@ class Host extends Component {
         const meta = {
             title: 'Host Hospitality | Rotary International Convention Toronto 2018 (June 23-27)',
             description: 'Find out how you can host visiting Rotarians for Host Hospitality night.',
-            canonical: '/host',
+            canonical: 'http://rotary2018.org/host',
             meta: {
                 name: {
                     keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee, host hospitality, hospitality',

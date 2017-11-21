@@ -41,7 +41,7 @@ class Header extends Component {
                                     <Link to="/"><i className="fa fa-home"></i></Link>
                                 </li>
 
-                                <li><Link to="/events/hoc/1">Events</Link></li>
+                                <li><Link to="/events/hoc/2">Events</Link></li>
                                 <li><Link to="/news">News</Link></li>
                                 <li><Link to="/hof">House of Friendship</Link></li>
                                 <li><a href="https://toronto-2018-rotary-convention.myshopify.com/" target="shop">Shop</a></li>

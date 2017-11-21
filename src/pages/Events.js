@@ -16,7 +16,7 @@ class Events extends Component {
     render() {
 
         if (!this.props.match.params.type) {
-            return <Redirect to='/events/hoc/1'/>;
+            return <Redirect to='/events/hoc/2'/>;
         }
 
         const meta = {
@@ -24,20 +24,8 @@ class Events extends Component {
             description: 'I am a description, and I can create multiple tags',
             canonical: 'http://rotary2018.org/events',
             meta: {
-                name: {
-                    keywords: 'react,meta,document,html,tags',
-                    'twitter:card': '',
-                    'twitter:site': '',
-                    'twitter:title': '',
-                    'twitter:description': '',
-                    'twitter:image': ''
-                },
                 property: {
-                    'og:title': 'OG Title',
-                    'og:image': 'OG',
-                    'og:url': 'OG',
-                    'og:site_name': 'OG',
-                    'og:description': 'OG'
+                    'og:url': 'http://rotary2018.org/events'
                 }
             }
         };
@@ -47,7 +35,7 @@ class Events extends Component {
         switch (this.props.match.params.type) {
             case 'hoc':
                 type = 'hoc';
-                number = 1;
+                number = 2;
                 break;
             case 'pre':
                 type = 'pre';
@@ -60,7 +48,7 @@ class Events extends Component {
             default:
                 number = parseInt(this.props.match.params.id, 10);
                 if (!number || number < 1 || number > DataEvents.events.length) {
-                    number = 1;
+                    number = 2;
                 }
         }
 

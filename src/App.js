@@ -21,6 +21,21 @@ class App extends Component {
             title: 'Rotary International Convention Toronto 2018 (June 23-27)',
             meta: {
                 charset: 'utf-8',
+                name: {
+                    keywords: 'rotary, convention, 2018, toronto, hoc, host organizing committee, host, organizing, committee',
+                    'twitter:card': 'summary',
+                    'twitter:site': '@RotaryTO2018',
+                    'twitter:title': 'Rotary International Convention Toronto 2018 (June 23-27)',
+                    'twitter:description': 'There’s a world of opportunity waiting for you at the Toronto convention.',
+                    'twitter:image': '/img/c18toronto_logo.png'
+                },
+                property: {
+                    'og:title': 'Rotary International Convention Toronto 2018 (June 23-27)',
+                    'og:type': 'website',
+                    'og:image': '/img/c18toronto_logo.png',
+                    'og:url': 'http://rotary2018.org/',
+                    'og:description': 'There’s a world of opportunity waiting for you at the Toronto convention.'
+                }
             }
         };
 
