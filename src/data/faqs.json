@@ -338,6 +338,27 @@
     "question": "Is there a limit on the number of ROTARYFEST tickets available?",
     "answer": "Yes. We plan to welcome 5000 guests at ROTARYFEST.",
     "links": []
+  },
+  {
+    "id": 48,
+    "type": "event5",
+    "question": "Can anyone attend this event?",
+    "answer": "This event is only open to Medical Professionals.",
+    "links": []
+  },
+  {
+    "id": 49,
+    "type": "event5",
+    "question": "Are there any accreditation hours available?",
+    "answer": "Application has been made for CME accreditation hours.",
+    "links": []
+  },
+  {
+    "id": 50,
+    "type": "event5",
+    "question": "Is there a rendezvous point to meet at to go to this event.",
+    "answer": "Registrants are expected to make their own way to the Women’s College Hospital 76 Grenville St, Toronto, ON M5S 1B2",
+    "links": []
   }
 ]
 
