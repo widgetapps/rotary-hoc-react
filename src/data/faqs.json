@@ -359,6 +359,27 @@
     "question": "Is there a rendezvous point to meet at to go to this event.",
     "answer": "Registrants are expected to make their own way to the Women’s College Hospital 76 Grenville St, Toronto, ON M5S 1B2",
     "links": []
+  },
+  {
+    "id": 51,
+    "type": "event1",
+    "question": "Do I have to be registered for the Toronto 2018 Convention to attend this HOC Ticketed Event?",
+    "answer": "No, anyone can purchase tickets and attend this event there is no requirement to be registered for the convention.",
+    "links": []
+  },
+  {
+    "id": 52,
+    "type": "event2",
+    "question": "Do I have to be registered for the Toronto 2018 Convention to attend this HOC Ticketed Event?",
+    "answer": "No, anyone can purchase tickets and attend this event there is no requirement to be registered for the convention.",
+    "links": []
+  },
+  {
+    "id": 53,
+    "type": "event3",
+    "question": "Do I have to be registered for the Toronto 2018 Convention to attend this HOC Ticketed Event?",
+    "answer": "No, anyone can purchase tickets and attend this event there is no requirement to be registered for the convention.",
+    "links": []
   }
 ]
 
