@@ -25,7 +25,7 @@
   "type": "hoc",
   "name": "Rock at the Historic Distillery District",
   "byline": "A fun filled evening of food, entertainment and partying in Toronto’s Historic Distillery District.",
-  "description": "The Distillery District is an inspired blend of Victorian Industrial architecture and stunning 21st century design and creativity. The result is an internationally acclaimed village of one-of-a-kind stores, shops, galleries, studios, restaurants, cafes, theatres and more. Join us for an evening of food, attractions, live country and rock music, and shopping at quaint shops. Create memories highlighting the architectural beauty of this 185 year old National Historic site!! Admission is all inclusive, with truly delicious food, attractions and entertainment. The Menu includes an array of delectable food….Archeo offers an Italian inspired menu, El Catrin delivers both traditional and modern Mexican cuisine, Pure Spirits Oyster House and Grill specializes in fresh fish and oysters,  Cluny Bistro and Boulangerie shares a wonderful world of French inspired food with a twist. There will be oysters, paella, poutine, tacos, s’mores, popcorn, cotton candy and more to feast upon, served from Market Huts set up in Trinity Square in the Distillery District. Live Country and Rock music will complete the warm summer evening while you eat, walk, talk, rest and shop or dance in the square!",
+  "description": "The Distillery District is an inspired blend of Victorian Industrial architecture and stunning 21st century design and creativity. The result is an internationally acclaimed village of one-of-a-kind stores, shops, galleries, studios, restaurants, cafes, theatres and more. Join us for an evening of food, attractions, live country and rock music, and shopping at quaint shops. Create memories highlighting the architectural beauty of this 185 year old National Historic site!! Admission includes all food, with truly delicious food, attractions and entertainment. Refreshments available for purchase. The Menu includes an array of delectable food….Archeo offers an Italian inspired menu, El Catrin delivers both traditional and modern Mexican cuisine, Pure Spirits Oyster House and Grill specializes in fresh fish and oysters,  Cluny Bistro and Boulangerie shares a wonderful world of French inspired food with a twist. There will be oysters, paella, poutine, tacos, s’mores, popcorn, cotton candy and more to feast upon, served from Market Huts set up in Trinity Square in the Distillery District. Live Country and Rock music will complete the warm summer evening while you eat, walk, talk, rest and shop or dance in the square!",
   "gettingthere": "A 20 minute walk or 10 minute TTC bus ride right to the front gate from the Toronto 2018 Venues.",
   "price": 120.00,
   "pricedetails": "CAD ($100 USD*) including all fees and taxes",
@@ -113,6 +113,31 @@
       "details": "Exhibition Place is a leading destination for trade and consumer shows, meetings, conferences, conventions and community space. Attracting more then 5.5 million visitors a year we offer convention, exhibition and conference venues, sporting facilities, restaurants, nightclubs, and attractions in a beautiful 192 acre parkland.",
       "website": "http://explace.on.ca",
       "map": "https://goo.gl/maps/1WWm5ohany92"
+    },
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets"
+  },
+  {
+    "id": 6,
+    "starttime": "2018-06-25 13:30:00",
+    "endtime": "2018-06-25 15:00:00",
+    "type": "hoc",
+    "name": "Kids Against Hunger Canada & Rotary",
+    "byline": "Kids Against Hunger Canada and local Rotary Clubs are hosting these highly-nutritious food pack events. Four sessions held on Jun 25 & 26, 1:30pm to 3pm and 4pm to 6pm.",
+    "description": "On Monday June 25 and Tuesday 26th, 2018 at the RCI in Toronto, you’ll have the opportunity to package 200,000 highly nutritious meals for people struggling with hunger around the world.\nOur endeavor is to engage Rotarians and friends attending the 2018 RI Convention in a Community Service Project, challenging them to make a difference in the lives of others. In order to do this, we will require your help volunteering to package 200,000 Meals using Kids Against Hunger Canada’s model of food packaging. We extend our invitation to Rotarians from around the globe to register for one of the four food pack sessions to choose from. Each session is estimated to be 1.5 to 2 hours of participation.\nThis will be a fun, enthusiastic and meaningful opportunity for Rotarians to positively impact the lives of others while attending the convention. Won’t you join and take this excellent opportunity to make a major difference in the lives of others? Meet new friends? Host a food packing event with your club?\nIn order to manage paying for the food, everyone’s assistance is required in raising the funds. Your registration fee of $65 will provide us the ability to package our goal of 200,000 meals. These meals are destined to meet current needs in Sierra Leone, Zambia, El Salvador, Honduras and Peru.",
+    "gettingthere": "Metro Toronto Convention Centre, Hall A",
+    "price": 65.00,
+    "pricedetails": "CAD including all fees and taxes.",
+    "image": {
+      "listing": "/img/events/hunger_listing.jpg",
+      "page": "/img/events/hunger_page.jpg",
+      "venue": "/img/events/mtcc_venue.jpg"
+    },
+    "venue": {
+      "name": "Metro Toronto Convention Centre, Hall A",
+      "address": "222 Bremner Blvd, Toronto, ON M5V 3L9",
+      "details": "The MTCC’s North Building opened for business on October 2, 1984 with the formal dedication conducted by Her Majesty Queen Elizabeth II. The South Building was opened 13 years later,  with the official opening by His Royal Highness, the Duke of Edinburgh on June 29, 1997.",
+      "website": "http://www.mtccc.com/",
+      "map": "https://goo.gl/maps/Z4YB1RSGEmJ2"
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets"
   }
