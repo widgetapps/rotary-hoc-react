@@ -41,6 +41,8 @@ class Files extends Component {
                                         <h3>Event Documents</h3>
                                         <ul>
                                             <li><a href="/support-files/RI18_HOC_Events_Brochure.pdf">Events Brochure</a></li>
+                                            <li><a href="/support-files/Destination_Eradication_Cover.pdf">Destination Eradication Cover</a></li>
+                                            <li><a href="/support-files/Destination_Eradication_Registration.pdf">Destination Eradication Registration</a></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -10,6 +10,7 @@
     "gettingthere": "Women's College Hospital - 76 Grenville St, Toronto, ON M5S 1B2",
     "price": 38.25,
     "pricedetails": "CAD including all fees and taxes",
+    "supportdoc": "N/A",
     "image": {
       "page": "/img/events/healthchallenges2_page.jpg"
     },
@@ -17,7 +18,8 @@
       "name": "N/A",
       "map": "https://goo.gl/maps/5zQbdqfqRv52"
     },
-    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets"
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+    "videolink": "N/A"
   },{
   "id": 2,
   "starttime": "2018-06-23 18:00:00",
@@ -29,6 +31,7 @@
   "gettingthere": "A 20 minute walk or 10 minute TTC bus ride right to the front gate from the Toronto 2018 Venues.",
   "price": 120.00,
   "pricedetails": "CAD ($100 USD*) including all fees and taxes",
+  "supportdoc": "N/A",
   "image": {
     "listing": "/img/events/distillery_listing.jpg",
     "page": "/img/events/distillery_page.jpg",
@@ -41,7 +44,8 @@
     "website": "http://www.thedistillerydistrict.com",
     "map": "https://goo.gl/maps/dZNibjaS4qT2"
   },
-  "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets"
+  "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+  "videolink": "N/A"
 },{
   "id": 1,
   "starttime": "2018-06-23 19:00:00",
@@ -53,6 +57,7 @@
   "gettingthere": "The aquarium is right beside the Metro Convention Center home of Toronto 2018.",
   "price": 120.00,
   "pricedetails": "CAD (approximately $100 USD*) including all fees and taxes.",
+  "supportdoc": "N/A",
   "image": {
     "listing": "/img/events/ripleys_listing_hi.jpg",
     "page": "/img/events/ripleys_page.jpg",
@@ -65,7 +70,8 @@
     "website": "http://www.ripleyaquariums.com/canada/",
     "map": "https://goo.gl/maps/oknr5EtryZm"
   },
-  "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets"
+  "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+  "videolink": "N/A"
 },
   {
     "id": 4,
@@ -78,6 +84,7 @@
     "gettingthere": "Your hosts will be arranging your transport to and from the Toronto 2018 Venues or your hotel.",
     "price": 43.00,
     "pricedetails": "CAD ($36 USD*) including all fees and taxes",
+    "supportdoc": "N/A",
     "image": {
       "listing": "/img/events/hospitality_listing.jpg",
       "page": "/img/events/hospitality_page.jpg",
@@ -89,7 +96,8 @@
       "details": "N/A",
       "map": "N/A"
     },
-    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets"
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+    "videolink": "N/A"
   },
   {
     "id": 3,
@@ -102,6 +110,7 @@
     "gettingthere": "ROTARYFEST is being held at the Canadian National Exhibition Centre. One GO Train Station west of the Toronto 2018 venues.",
     "price": 90.00,
     "pricedetails": "CAD (approximately ($75 USD*) including all fees and taxes.",
+    "supportdoc": "N/A",
     "image": {
       "listing": "/img/events/exhibition_listing_hi.jpg",
       "page": "/img/events/exhibition_page_hi.jpg",
@@ -114,7 +123,8 @@
       "website": "http://explace.on.ca",
       "map": "https://goo.gl/maps/1WWm5ohany92"
     },
-    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets"
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+    "videolink": "https://vimeo.com/258402954"
   },
   {
     "id": 6,
@@ -127,6 +137,7 @@
     "gettingthere": "Metro Toronto Convention Centre, Hall A",
     "price": 65.00,
     "pricedetails": "CAD including all fees and taxes.",
+    "supportdoc": "N/A",
     "image": {
       "listing": "/img/events/hunger_listing.jpg",
       "page": "/img/events/hunger_page.jpg",
@@ -139,6 +150,66 @@
       "website": "http://www.mtccc.com/",
       "map": "https://goo.gl/maps/Z4YB1RSGEmJ2"
     },
-    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets"
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+    "videolink": "N/A"
+  },
+  {
+    "id": 7,
+    "starttime": "2018-06-22 09:00:00",
+    "endtime": "2018-06-22 17:00:00",
+    "type": "hoc",
+    "name": "Eradication Destination Bicycle Ride, Experienced Cyclists",
+    "byline": "100 KM bike ride coming from four different starting points outside of Toronto.",
+    "description": "100 KM bike ride coming from four different starting points outside of Toronto.  The four routes will then ultimately converge at the location of the International Convention.  Enjoy a ride from the Niagara Region Southwest of Toronto; the Cambridge/Guelph area to the West; the Barrie/Newmarket area in the North or from the Whitby/Oshawa area in the East.\nPlease note: These rides are for experienced and self-supporting riders as there will be no water and food stations along the route. Groups are limited to a maximum of 25 riders. A separate registration form must also be submitted.",
+    "gettingthere": "Various Starting Locations",
+    "price": 35.00,
+    "pricedetails": "CAD including all fees and taxes (also raise a minimum of $500.00 CAD for Polio Eradication)",
+    "supportdoc": {
+      "anchor": "Registration Form",
+      "link": "/support-files/Destination_Eradication_Registration.pdf"
+    },
+    "image": {
+      "listing": "/img/events/ride_listing.jpg",
+      "page": "/img/events/ride_page.jpg",
+      "venue": "/img/events/ride_listing.jpg"
+    },
+    "venue": {
+      "name": "N/A",
+      "address": "N/A",
+      "details": "N/A",
+      "map": "N/A"
+    },
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+    "videolink": "https://vimeo.com/271727622"
+  },
+  {
+    "id": 8,
+    "starttime": "2018-06-23 09:30:00",
+    "endtime": "2018-06-23 16:00:00",
+    "type": "hoc",
+    "name": "Eradication Destination Bicycle Ride, Leisure Cyclists",
+    "byline": "Join hundreds of cycling enthusiasts and leisure cyclists for approximately two hours on a ride on the picturesque Toronto Islands.",
+    "description": "Join hundreds of cycling enthusiasts and leisure cyclists for approximately two hours on a ride on the picturesque Toronto Islands. Along the route from Hanlan's Point to Wards Island will be six stations where historic interpreters will share interesting facts about Toronto and the area, giving participants a rare glimpse into the city’s history.\nPlease note: There will be three ferry services to the Island for participants at 9:30 a.m., 10:00 a.m. and 10:30 a.m. Participants can ride their own bicycle or rent one on the island. A separate registration form must also be submitted.\nYour registration fee will cover the ferry transfer, water, a lunch at the end of the ride, and the historical education. The experience will be priceless. (You will also receive the special, limited-edition Destination Eradication bike shirt!) A voluntary donation to Polio Eradication would be appreciated!",
+    "gettingthere": "Take the 510 or 509 streetcar from Union station and get off at Queen's Quay.",
+    "price": 60.00,
+    "pricedetails": "CAD including all fees and taxes",
+    "supportdoc": {
+      "anchor": "Registration Form",
+      "link": "/support-files/Destination_Eradication_Registration.pdf"
+    },
+    "image": {
+      "listing": "/img/events/ride_listing.jpg",
+      "page": "/img/events/ride_page.jpg",
+      "venue": "/img/events/ride_venue.jpg"
+    },
+    "venue": {
+      "name": "Toronto Island - The Jack Layton Ferry Terminal, Hanlan's Point",
+      "address": "9 Queens Quay W, Toronto, ON M5J 2H3",
+      "details": "The Toronto Islands - also called the Island, or Toronto Island Park - is located in Lake Ontario, a 13-minute ferry ride from downtown Toronto. Boats to the Island leave from the Jack Layton Ferry Terminal at the foot of Bay St. and Queen’s Quay. The Island is actually a group of 15 islands inter-connected by pathways and bridges. You can walk from one end of the Island to the other.",
+      "website": "https://www.toronto.ca/explore-enjoy/parks-gardens-beaches/toronto-island-park/",
+      "map": "https://goo.gl/maps/7yY3tw3tdpo"
+    },
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+    "videolink": "https://vimeo.com/271727622"
   }
 ]

@@ -94,12 +94,25 @@ class Event extends Component {
                         <h4>Event Description</h4>
                         <p>{this.state.event.description}</p>
 
+                        {this.state.event.videolink !== 'N/A' ? (
+                            <a href={this.state.event.videolink} className="btn btn-sm btn-more i-right" target="video">View Event Video <i className="fa fa-film"></i></a>
+                        ) : (
+                            <br />
+                        )}
+
                         <h4>How to get there</h4>
                         <p>{this.state.event.gettingthere} <a href={this.state.event.venue.map} target="map"><i className="fa fa-map" aria-hidden="true"></i> MAP</a></p>
 
                         <h4>Event Details</h4>
                         <p>Date: {moment(this.state.event.starttime).format("ddd, MMM Do, YYYY")}</p>
                         <p>Time: {moment(this.state.event.starttime).format("hA")} to {moment(this.state.event.endtime).format("hA")}</p>
+
+                        {this.state.event.supportdoc !== 'N/A' ? (
+                            <div><a href={this.state.event.supportdoc.link} className="btn btn-sm btn-more i-right" target="video">{this.state.event.supportdoc.anchor} <i className="fa fa-file-pdf-o"></i></a><br />&nbsp;<br /></div>
+                        ) : (
+                            <br />
+                        )}
+
                         <p><em className="lead">Price: ${this.state.event.price} CAD</em> (approximately ${Math.round(usd)} USD*) including all fees and taxes.</p>
                         <small>* US currency based on the current exchange rate of {this.state.exchange * 100}%.<br/><br/></small>
 
@@ -145,12 +158,25 @@ class Event extends Component {
                         <h4>Event Description</h4>
                         <p>{this.state.event.description}</p>
 
+                        {this.state.event.videolink !== 'N/A' ? (
+                            <a href={this.state.event.videolink} className="btn btn-sm btn-more i-right" target="video">View Event Video <i className="fa fa-film"></i></a>
+                        ) : (
+                            <br />
+                        )}
+
                         <h4>How to get there</h4>
                         <p>{this.state.event.gettingthere} <a href={this.state.event.venue.map} target="map"><i className="fa fa-map" aria-hidden="true"></i> MAP</a></p>
 
                         <h4>Event Details</h4>
                         <p>Date: {moment(this.state.event.starttime).format("ddd, MMM Do, YYYY")}</p>
                         <p>Time: {moment(this.state.event.starttime).format("hA")} to {moment(this.state.event.endtime).format("hA")}</p>
+
+                        {this.state.event.supportdoc !== 'N/A' ? (
+                            <div><a href={this.state.event.supportdoc.link} className="btn btn-sm btn-more i-right" target="video">{this.state.event.supportdoc.anchor} <i className="fa fa-file-pdf-o"></i></a><br />&nbsp;<br /></div>
+                        ) : (
+                            <br />
+                        )}
+
                         <p><em className="lead">Price: ${this.state.event.price} CAD</em> (approximately ${Math.round(usd)} USD*) including all fees and taxes.</p>
                         <small>* US currency based on the current exchange rate of {this.state.exchange * 100}%.<br/><br/></small>
 
