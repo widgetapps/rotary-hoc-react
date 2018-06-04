@@ -165,7 +165,7 @@ class Event extends Component {
                         )}
 
                         <h4>How to get there</h4>
-                        <p>{this.state.event.gettingthere} <a href={this.state.event.venue.map} target="map"><i className="fa fa-map" aria-hidden="true"></i> MAP</a></p>
+                        <p>{this.state.event.gettingthere}</p>
 
                         <h4>Event Details</h4>
                         <p>Date: {moment(this.state.event.starttime).format("ddd, MMM Do, YYYY")}</p>

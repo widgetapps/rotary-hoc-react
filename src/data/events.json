@@ -178,32 +178,5 @@
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
     "videolink": "https://vimeo.com/271727622"
-  },
-  {
-    "id": 8,
-    "starttime": "2018-06-23 09:30:00",
-    "endtime": "2018-06-23 16:00:00",
-    "type": "hoc",
-    "name": "Eradication Destination Bicycle Ride, Leisure Cyclists",
-    "byline": "Join hundreds of cycling enthusiasts and leisure cyclists for approximately two hours on a ride on the picturesque Toronto Islands.",
-    "description": "Join hundreds of cycling enthusiasts and leisure cyclists for approximately two hours on a ride on the picturesque Toronto Islands. Along the route from Hanlan's Point to Wards Island will be six stations where historic interpreters will share interesting facts about Toronto and the area, giving participants a rare glimpse into the city’s history.\nPlease note: There will be three ferry services to the Island for participants at 9:30 a.m., 10:00 a.m. and 10:30 a.m. Participants can ride their own bicycle or rent one on the island.\nYour registration fee will cover the ferry transfer, water, a lunch at the end of the ride, and the historical education. The experience will be priceless. (You will also receive the special, limited-edition Destination Eradication bike shirt!) A voluntary donation to Polio Eradication would be appreciated!",
-    "gettingthere": "Take the 510 or 509 streetcar from Union station and get off at Queen's Quay.",
-    "price": 60.00,
-    "pricedetails": "CAD including all fees and taxes",
-    "supportdoc": "N/A",
-    "image": {
-      "listing": "/img/events/ride_listing.jpg",
-      "page": "/img/events/ride_page.jpg",
-      "venue": "/img/events/ride_venue.jpg"
-    },
-    "venue": {
-      "name": "Toronto Island - The Jack Layton Ferry Terminal, Hanlan's Point",
-      "address": "9 Queens Quay W, Toronto, ON M5J 2H3",
-      "details": "The Toronto Islands - also called the Island, or Toronto Island Park - is located in Lake Ontario, a 13-minute ferry ride from downtown Toronto. Boats to the Island leave from the Jack Layton Ferry Terminal at the foot of Bay St. and Queen’s Quay. The Island is actually a group of 15 islands inter-connected by pathways and bridges. You can walk from one end of the Island to the other.",
-      "website": "https://www.toronto.ca/explore-enjoy/parks-gardens-beaches/toronto-island-park/",
-      "map": "https://goo.gl/maps/7yY3tw3tdpo"
-    },
-    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
-    "videolink": "https://vimeo.com/271727622"
   }
 ]
