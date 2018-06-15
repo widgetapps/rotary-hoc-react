@@ -82,6 +82,7 @@ class Events extends Component {
                                             <div className="btn-group btn-group-justified" role="group" aria-label="Event types">
                                                 <Link to="/events/pre/5" type="button" className={`btn btn-default ${type === 'pre'?'active':'notactive'}`}>Pre</Link>
                                                 <Link to="/events/hoc/1" type="button" className={`btn btn-default ${type === 'hoc'?'active':'notactive'}`}>During</Link>
+                                                <Link to="/events/post/12" type="button" className={`btn btn-default ${type === 'post'?'active':'notactive'}`}>Post</Link>
                                             </div>
                                             <h5>Available Events</h5>
                                             <ul className="nav nav-pills nav-stacked">

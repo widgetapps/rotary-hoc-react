@@ -1,79 +1,57 @@
 [
   {
-    "id": 5,
-    "starttime": "2018-06-22 14:00:00",
-    "endtime": "2018-06-22 17:00:00",
-    "type": "pre",
-    "name": "Global Health Challenges",
-    "byline": "Only open to Medical Professionals.",
-    "description": "A symposium jointly organized by the Fellowship of Rotarian Doctors and the Toronto Medical School. Open to all Medical Professionals.",
-    "gettingthere": "Women's College Hospital - 76 Grenville St, Toronto, ON M5S 1B2",
-    "price": 38.25,
-    "pricedetails": "CAD including all fees and taxes",
+    "id": 2,
+    "starttime": "2018-06-23 18:00:00",
+    "endtime": "2018-06-23 22:00:00",
+    "type": "hoc",
+    "name": "Rock at the Historic Distillery District",
+    "byline": "A fun filled evening of food, entertainment and partying in Toronto’s Historic Distillery District.",
+    "description": "The Distillery District is an inspired blend of Victorian Industrial architecture and stunning 21st century design and creativity. The result is an internationally acclaimed village of one-of-a-kind stores, shops, galleries, studios, restaurants, cafes, theatres and more. Join us for an evening of food, attractions, live country and rock music, and shopping at quaint shops. Create memories highlighting the architectural beauty of this 185 year old National Historic site!! Admission includes all food, with truly delicious food, attractions and entertainment. Refreshments available for purchase. The Menu includes an array of delectable food….Archeo offers an Italian inspired menu, El Catrin delivers both traditional and modern Mexican cuisine, Pure Spirits Oyster House and Grill specializes in fresh fish and oysters,  Cluny Bistro and Boulangerie shares a wonderful world of French inspired food with a twist. There will be oysters, paella, poutine, tacos, s’mores, popcorn, cotton candy and more to feast upon, served from Market Huts set up in Trinity Square in the Distillery District. Live Country and Rock music will complete the warm summer evening while you eat, walk, talk, rest and shop or dance in the square!",
+    "gettingthere": "A 20 minute walk or 10 minute TTC bus ride right to the front gate from the Toronto 2018 Venues.",
+    "price": 120.00,
+    "pricedetails": "CAD ($100 USD*) including all fees and taxes",
     "supportdoc": "N/A",
     "image": {
-      "page": "/img/events/healthchallenges2_page.jpg"
+      "listing": "/img/events/distillery_listing.jpg",
+      "page": "/img/events/distillery_page.jpg",
+      "venue": "/img/events/distillery_listing.jpg"
     },
     "venue": {
-      "name": "N/A",
-      "map": "https://goo.gl/maps/5zQbdqfqRv52"
+      "name": "The Distillery District",
+      "address": "55 Mill St, Toronto, ON M5A",
+      "details": "Nearly 20 years ago a small group of visionary developers had a dream for Toronto. They looked at a collection of Victorian Industrial buildings that had been pronounced a national historic site and imagined transforming it. But not just simply into another “historic district” or “pioneer village”, but into something exciting and unique. What you will find is the perfect fusion of old and new. An inspired blend of Victorian Industrial architecture and stunning 21st century design and creativity. The result is an internationally acclaimed village of stores, shops, galleries, studios, restaurants, cafes, theatres and more.",
+      "website": "http://www.thedistillerydistrict.com",
+      "map": "https://goo.gl/maps/dZNibjaS4qT2"
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
     "videolink": "N/A"
   },{
-  "id": 2,
-  "starttime": "2018-06-23 18:00:00",
-  "endtime": "2018-06-23 22:00:00",
-  "type": "hoc",
-  "name": "Rock at the Historic Distillery District",
-  "byline": "A fun filled evening of food, entertainment and partying in Toronto’s Historic Distillery District.",
-  "description": "The Distillery District is an inspired blend of Victorian Industrial architecture and stunning 21st century design and creativity. The result is an internationally acclaimed village of one-of-a-kind stores, shops, galleries, studios, restaurants, cafes, theatres and more. Join us for an evening of food, attractions, live country and rock music, and shopping at quaint shops. Create memories highlighting the architectural beauty of this 185 year old National Historic site!! Admission includes all food, with truly delicious food, attractions and entertainment. Refreshments available for purchase. The Menu includes an array of delectable food….Archeo offers an Italian inspired menu, El Catrin delivers both traditional and modern Mexican cuisine, Pure Spirits Oyster House and Grill specializes in fresh fish and oysters,  Cluny Bistro and Boulangerie shares a wonderful world of French inspired food with a twist. There will be oysters, paella, poutine, tacos, s’mores, popcorn, cotton candy and more to feast upon, served from Market Huts set up in Trinity Square in the Distillery District. Live Country and Rock music will complete the warm summer evening while you eat, walk, talk, rest and shop or dance in the square!",
-  "gettingthere": "A 20 minute walk or 10 minute TTC bus ride right to the front gate from the Toronto 2018 Venues.",
-  "price": 120.00,
-  "pricedetails": "CAD ($100 USD*) including all fees and taxes",
-  "supportdoc": "N/A",
-  "image": {
-    "listing": "/img/events/distillery_listing.jpg",
-    "page": "/img/events/distillery_page.jpg",
-    "venue": "/img/events/distillery_listing.jpg"
-  },
-  "venue": {
-    "name": "The Distillery District",
-    "address": "55 Mill St, Toronto, ON M5A",
-    "details": "Nearly 20 years ago a small group of visionary developers had a dream for Toronto. They looked at a collection of Victorian Industrial buildings that had been pronounced a national historic site and imagined transforming it. But not just simply into another “historic district” or “pioneer village”, but into something exciting and unique. What you will find is the perfect fusion of old and new. An inspired blend of Victorian Industrial architecture and stunning 21st century design and creativity. The result is an internationally acclaimed village of stores, shops, galleries, studios, restaurants, cafes, theatres and more.",
-    "website": "http://www.thedistillerydistrict.com",
-    "map": "https://goo.gl/maps/dZNibjaS4qT2"
-  },
-  "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
-  "videolink": "N/A"
-},{
-  "id": 1,
-  "starttime": "2018-06-23 19:00:00",
-  "endtime": "2018-06-23 23:00:00",
-  "type": "hoc",
-  "name": "Jazz at the Aquarium",
-  "byline": "A wondrous evening of Music, Food and Entertainment at Toronto’s renowned Ripley’s Aquarium.",
-  "description": "Ripley’s Aquarium of Canada is a tropical reef with habitats of colourful coral, sea turtles, and sharks in a moonlight setting. Check out the awe inspiring exhibits: Canadian Waters Gallery, Rainbow Reef, Dangerous Lagoon, Discovery Centre, Ray Bay, Planet Jellies…and more! You are invited to a musical underwater adventure in the heart of downtown Toronto. Your selfies of sea creatures will come alive with a side of jazz, food and drinks. The live music of “Lady Be Good” Jazz Band featuring classical jazz, soulful RnB and modern pop will serenade you throughout the evening. All this complimented by a unique foodie menu designed to reflect the diversity of Toronto’s communities. Classic braised beef, complex Asian fare and unforgettable vegetarian curry with decadent desserts will impress your taste buds while the majesty of the Aquarium’s aquatic residents fill you with awe.",
-  "gettingthere": "The aquarium is right beside the Metro Convention Center home of Toronto 2018.",
-  "price": 120.00,
-  "pricedetails": "CAD (approximately $100 USD*) including all fees and taxes.",
-  "supportdoc": "N/A",
-  "image": {
-    "listing": "/img/events/ripleys_listing_hi.jpg",
-    "page": "/img/events/ripleys_page.jpg",
-    "venue": "/img/events/ripleys_venue.jpg"
-  },
-  "venue": {
-    "name": "Ripley’s Aquarium of Canada",
-    "address": "288 Bremner Blvd, Toronto, ON M5V 3L9",
-    "details": "Ripley’s Aquarium of Canada is the home of 16,000 aquatic animals and features North America’s longest underwater viewing tunnel with more than 5.7 million liters of water and over 100 interactive opportunities. This attraction in the heart of Toronto consists of nine curated galleries with saltwater and freshwater environments from around the world, including an exhibit of the Great Lakes basin.",
-    "website": "http://www.ripleyaquariums.com/canada/",
-    "map": "https://goo.gl/maps/oknr5EtryZm"
-  },
-  "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
-  "videolink": "N/A"
-},
-  {
+    "id": 1,
+    "starttime": "2018-06-23 19:00:00",
+    "endtime": "2018-06-23 23:00:00",
+    "type": "hoc",
+    "name": "Jazz at the Aquarium",
+    "byline": "A wondrous evening of Music, Food and Entertainment at Toronto’s renowned Ripley’s Aquarium.",
+    "description": "Ripley’s Aquarium of Canada is a tropical reef with habitats of colourful coral, sea turtles, and sharks in a moonlight setting. Check out the awe inspiring exhibits: Canadian Waters Gallery, Rainbow Reef, Dangerous Lagoon, Discovery Centre, Ray Bay, Planet Jellies…and more! You are invited to a musical underwater adventure in the heart of downtown Toronto. Your selfies of sea creatures will come alive with a side of jazz, food and drinks. The live music of “Lady Be Good” Jazz Band featuring classical jazz, soulful RnB and modern pop will serenade you throughout the evening. All this complimented by a unique foodie menu designed to reflect the diversity of Toronto’s communities. Classic braised beef, complex Asian fare and unforgettable vegetarian curry with decadent desserts will impress your taste buds while the majesty of the Aquarium’s aquatic residents fill you with awe.",
+    "gettingthere": "The aquarium is right beside the Metro Convention Center home of Toronto 2018.",
+    "price": 120.00,
+    "pricedetails": "CAD (approximately $100 USD*) including all fees and taxes.",
+    "supportdoc": "N/A",
+    "image": {
+      "listing": "/img/events/ripleys_listing_hi.jpg",
+      "page": "/img/events/ripleys_page.jpg",
+      "venue": "/img/events/ripleys_venue.jpg"
+    },
+    "venue": {
+      "name": "Ripley’s Aquarium of Canada",
+      "address": "288 Bremner Blvd, Toronto, ON M5V 3L9",
+      "details": "Ripley’s Aquarium of Canada is the home of 16,000 aquatic animals and features North America’s longest underwater viewing tunnel with more than 5.7 million liters of water and over 100 interactive opportunities. This attraction in the heart of Toronto consists of nine curated galleries with saltwater and freshwater environments from around the world, including an exhibit of the Great Lakes basin.",
+      "website": "http://www.ripleyaquariums.com/canada/",
+      "map": "https://goo.gl/maps/oknr5EtryZm"
+    },
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+    "videolink": "N/A"
+  },{
     "id": 4,
     "starttime": "2018-06-25 16:00:00",
     "endtime": "2018-06-25 22:00:00",
@@ -98,8 +76,7 @@
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
     "videolink": "N/A"
-  },
-  {
+  },{
     "id": 3,
     "starttime": "2018-06-26 16:00:00",
     "endtime": "2018-06-26 22:00:00",
@@ -125,8 +102,7 @@
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
     "videolink": "https://vimeo.com/258402954"
-  },
-  {
+  },{
     "id": 9,
     "starttime": "2018-06-20 17:30:00",
     "endtime": "2018-06-20 20:00:00",
@@ -146,6 +122,132 @@
     },
     "eventlink": "N/A",
     "infolink": "http://rotarytoronto.com",
+    "videolink": "N/A"
+  },{
+    "id": 5,
+    "starttime": "2018-06-22 14:00:00",
+    "endtime": "2018-06-22 17:00:00",
+    "type": "pre",
+    "name": "Global Health Challenges",
+    "byline": "Only open to Medical Professionals.",
+    "description": "A symposium jointly organized by the Fellowship of Rotarian Doctors and the Toronto Medical School. Open to all Medical Professionals.",
+    "gettingthere": "Women's College Hospital - 76 Grenville St, Toronto, ON M5S 1B2",
+    "price": 38.25,
+    "pricedetails": "CAD including all fees and taxes",
+    "supportdoc": "N/A",
+    "image": {
+      "page": "/img/events/healthchallenges2_page.jpg"
+    },
+    "venue": {
+      "name": "N/A",
+      "map": "https://goo.gl/maps/5zQbdqfqRv52"
+    },
+    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
+    "videolink": "N/A"
+  },{
+    "id": 10,
+    "starttime": "2018-06-20 17:30:00",
+    "endtime": "2018-06-20 20:00:00",
+    "type": "pre",
+    "name": "Welcome to Toronto",
+    "byline": "Welcome to Toronto - Launch to Convention 2018",
+    "description": "The Rotary Club of Toronto as Convention Host Club is pleased to invite all Rotarians to the “Welcome to Toronto” Reception Wednesday June 20, at the National Club 303 Bay St. 5:30 pm to 8 pm. Light sumptuous dinner and complimentary Wine by Megalomaniac Wines. Join us to meet Rotarians from around the world and Toronto area. Meet Megalomaniac Winery President and CEO, John Howard, plus many of our sponsors and contractors associated with the convention. It will be a sold out event. Cost is $40, all inclusive.. contact office@rotarytoronto.on.ca or call 416-363-0604",
+    "gettingthere": "A very short walk on Bay St.  About 10 minutes from MTCC.",
+    "price": 40.00,
+    "pricedetails": "CAD",
+    "supportdoc": "N/A",
+    "image": "N/A",
+    "venue": {
+      "name": "The National Club",
+      "address": "303 Bay Street, Toronto, ON",
+      "map": "https://goo.gl/maps/2EYB155D8D82"
+    },
+    "eventlink": "N/A",
+    "infolink": "http://rotarytoronto.com",
+    "videolink": "N/A"
+  },{
+    "id": 11,
+    "starttime": "2018-06-22 19:00:00",
+    "endtime": "2018-06-22 23:00:00",
+    "type": "pre",
+    "name": "Mississauga - City Centre Change Over Celebration",
+    "byline": "Rotary Club of Mississauga - City Centre will be celebrating it anniversary and Changeover Party on June 22nd, 2018",
+    "description": "Rotary Club of Mississauga - City Centre will be celebrating it anniversary and Changeover Party on June 22nd, 2018 at Continental Grand Buffet, 4141 Dixie Road, Mississauga, On L4W 1V5. Guests are invited have dinner with us and see what our club has been doing to change lives in our local communities. No cost for Rotary International Convention Registered International Guests. For more information, please contact Tariq Shah tariqshah555@gmail.com (647) 741-5000",
+    "gettingthere": "We are working on to arrange a Buss from Metro Toronto Convention Centre.",
+    "price": 40.00,
+    "pricedetails": "CAD",
+    "supportdoc": "N/A",
+    "image": "N/A",
+    "venue": {
+      "name": "Continental Grand Buffet",
+      "address": "4141 Dixie Road, Mississauga, ON L4W 1V5",
+      "map": "https://goo.gl/maps/Ggi8ciuw3dN2"
+    },
+    "eventlink": "N/A",
+    "infolink": "",
+    "videolink": "N/A"
+  },{
+    "id": 12,
+    "starttime": "2018-06-25 18:00:00",
+    "endtime": "2018-06-25 22:00:00",
+    "type": "post",
+    "name": "Dinner & Fellowship at The Guild Inn Estates",
+    "byline": "Dinner and fellowship at the beautiful Guild Inn Estates overlooking Lake Ontario from the Scarborough Bluffs hosted by the joint Clubs in Scarborough.",
+    "description": "Come to the beautiful Multi-Cultural City of Scarborough at the Guild Inn Estates and enjoy the wonderful experience of Fun and Fellowship with over 150 - 200 Rotarians and spouses from our local Scarborough Clubs.",
+    "gettingthere": "You will be transported by coach to and from the Guild Inn Estates.",
+    "price": 0.00,
+    "pricedetails": "CAD",
+    "supportdoc": "N/A",
+    "image": "N/A",
+    "venue": {
+      "name": "Guild Inn Estates",
+      "address": "201 Guildwood Parkway, Scarborough, Ontario M1E 1P5",
+      "map": "https://goo.gl/maps/MXjPZRG531K2"
+    },
+    "eventlink": "N/A",
+    "infolink": "http://www.guildinnestate.com",
+    "videolink": "N/A"
+  },{
+    "id": 13,
+    "starttime": "2018-06-26 17:00:00",
+    "endtime": "2018-06-26 22:00:00",
+    "type": "post",
+    "name": "HOT SO HOT Latin Party Cruise",
+    "byline": "Latin themed dinner, one free drink, six piece HOT Latin band 'Cassava' and four-hour dinner dance cruise. Organized by Rotary Club of Playa Coronado - Distric 4240.",
+    "description": "Sunset cruise in the beautiful Toronto Islands and Toronto Harbour - one of the prettiest cities on the water. Come ready to dance on the upper deck: salsa, merengue, cumbia, tango and more or talk with friends on the lower deck. Proceeds to our children's charity projects.",
+    "gettingthere": "You can walk, take a cab or Uber. Just 15 minutes!",
+    "price": 50.00,
+    "pricedetails": "CAD",
+    "supportdoc": "N/A",
+    "image": "N/A",
+    "venue": {
+      "name": "River Gambler",
+      "address": "Pier 31- 333 Lakeshore Blvd East Toronto.",
+      "map": "https://goo.gl/maps/fuUmfx7c5vK2"
+    },
+    "eventlink": "N/A",
+    "infolink": "http://rotarypc.com/event/hot-so-hot---latin-party-cruise/",
+    "videolink": "N/A"
+  },{
+    "id": 14,
+    "starttime": "2018-06-29 11:00:00",
+    "endtime": "2018-06-29 22:00:00",
+    "type": "post",
+    "name": "Toronto Ribfest",
+    "byline": "The largest Canada Day celebration and Ribfest in Toronto.",
+    "description": "Since 1999, Toronto Ribfest has been delivering family entertainment to Toronto with the most exciting Canada Day weekend party around! Between the live entertainment, exciting midway and Kids Zone, and of course, the mouth-watering food, everyone has fun and no one leaves hungry. New this year: Sports Bar streaming live sports games including world cup soccer But Toronto Ribfest is about more than just the food, fun, and music. We’re proud of the fact that 100% of the proceeds from Toronto Ribfest goes back into our community and to select programs that make our world a better place. Through the hard work of Rotary Etobicoke, our community sponsors and partners, and hundreds of volunteers, we’ve raised close to $4 million since we started 18 years ago – and every penny goes to support our causes. We look forward to seeing you on Canada Day 2018 weekend",
+    "gettingthere": "Taxi",
+    "price": 0.00,
+    "pricedetails": "CAD",
+    "supportdoc": "N/A",
+    "image": "N/A",
+    "venue": {
+      "name": "Centennial Park",
+      "address": "256 Centennial Park Rd, Etobicoke, ON M9C 5N3",
+      "map": "https://goo.gl/maps/7ANnVAVMQXv"
+    },
+    "eventlink": "N/A",
+    "infolink": "http://www.torontoribfest.com/",
     "videolink": "N/A"
   }
 ]

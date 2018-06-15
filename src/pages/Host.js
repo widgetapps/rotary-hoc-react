@@ -59,7 +59,6 @@ class Host extends Component {
                                                 your event must be no more than 1 hour away from the Metro Toronto Convention Centre.
                                                 See the FAQ below for more details.</p>
 
-                                            <a role="button" class="btn btn-primary btn-lg" href="https://docs.google.com/a/rotary7070.ca/forms/d/e/1FAIpQLSeMeOB7oSrj55pMvePRTlVuOjvFd0wiF7GNxGmzFgI3rSep9Q/viewform" target="new">Sign-Up to Host an Event <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
                                         </div>
                                     </div>
 

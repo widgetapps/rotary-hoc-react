@@ -58,21 +58,12 @@ class Header extends Component {
                                             <ul className="col-md-4">
                                                 <li className="dropdown-header">Host Hospitality</li>
                                                 <li><Link to="/host">Learn More</Link></li>
-                                                <li><a href="https://docs.google.com/a/rotary7070.ca/forms/d/e/1FAIpQLSeMeOB7oSrj55pMvePRTlVuOjvFd0wiF7GNxGmzFgI3rSep9Q/viewform">Register to Host</a></li>
                                             </ul>
                                             <ul className="col-md-4">
                                                 <li className="dropdown-header">HOC Resources</li>
                                                 <li><Link to="/files">Files</Link></li>
                                                 <li><Link to="/about">About the HOC</Link></li>
                                             </ul>
-                                        </li>
-                                        <li className="dropdown-footer">
-                                            <div className="row">
-                                                <div className="col-md-7">The HOC is looking for input from Rotarians. <strong>Send us your ideas.</strong></div>
-                                                <div className="col-md-5">
-                                                    <a href="/ideas" className="btn btn-more btn-lg pull-right"><i className="fa fa-commenting"></i> Submit Ideas</a>
-                                                </div>
-                                            </div>
                                         </li>
                                     </ul>
                                 </li>
