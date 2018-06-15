@@ -80,7 +80,7 @@ class Events extends Component {
                                         <div className="col-md-3 col-md-pull-9 sidebar">
                                             <h5>Select Convention Event Timing:</h5>
                                             <div className="btn-group btn-group-justified" role="group" aria-label="Event types">
-                                                <Link to="/events/pre/5" type="button" className={`btn btn-default ${type === 'pre'?'active':'notactive'}`}>Pre</Link>
+                                                <Link to="/events/pre/9" type="button" className={`btn btn-default ${type === 'pre'?'active':'notactive'}`}>Pre</Link>
                                                 <Link to="/events/hoc/1" type="button" className={`btn btn-default ${type === 'hoc'?'active':'notactive'}`}>During</Link>
                                                 <Link to="/events/post/12" type="button" className={`btn btn-default ${type === 'post'?'active':'notactive'}`}>Post</Link>
                                             </div>
