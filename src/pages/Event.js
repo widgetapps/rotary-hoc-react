@@ -37,7 +37,7 @@ class Event extends Component {
 
         this.serverRequest =
             axios
-                .get("https://api.fixer.io/latest?base=CAD")
+                .get("https://data.fixer.io/api/latest?base=CAD&access_key=47a1154102e0c0c9721a647502e02472")
                 .then(function(result) {
 
                     _this.setState({
@@ -90,7 +90,12 @@ class Event extends Component {
                             {this.state.event.name}<br />
                             <small>{this.state.event.byline}</small>
                         </h3>
-                        <img className="img-responsive" src={this.state.event.image.page} />
+
+                        {this.state.event.image !== 'N/A' ? (
+                            <img className="img-responsive" src={this.state.event.image.page} />
+                        ) : (
+                            <br />
+                        )}
                         <h4>Event Description</h4>
                         <p>{this.state.event.description}</p>
 
@@ -105,7 +110,7 @@ class Event extends Component {
 
                         <h4>Event Details</h4>
                         <p>Date: {moment(this.state.event.starttime).format("ddd, MMM Do, YYYY")}</p>
-                        <p>Time: {moment(this.state.event.starttime).format("hA")} to {moment(this.state.event.endtime).format("hA")}</p>
+                        <p>Time: {moment(this.state.event.starttime).format("h:mmA")} to {moment(this.state.event.endtime).format("hA")}</p>
 
                         {this.state.event.supportdoc !== 'N/A' ? (
                             <div><a href={this.state.event.supportdoc.link} className="btn btn-sm btn-more i-right" target="video">{this.state.event.supportdoc.anchor} <i className="fa fa-file-pdf-o"></i></a><br />&nbsp;<br /></div>
@@ -131,9 +136,13 @@ class Event extends Component {
                         </div>
 
                         <div className="row">
-                            <div className="col-md-4">
-                                <img className="img-responsive img-rounded" src={this.state.event.image.venue} />
-                            </div>
+                            {this.state.event.image !== 'N/A' ? (
+                                <div className="col-md-4">
+                                    <img className="img-responsive img-rounded" src={this.state.event.image.venue} />
+                                </div>
+                            ) : (
+                                <div className="col-md-1"></div>
+                            )}
                             <div className="col-md-8">
                                 <h5>{this.state.event.venue.name}</h5>
                                 <p>{this.state.event.venue.details}</p>
@@ -154,7 +163,12 @@ class Event extends Component {
                             {this.state.event.name}<br />
                             <small>{this.state.event.byline}</small>
                         </h3>
-                        <img className="img-responsive" src={this.state.event.image.page} />
+
+                        {this.state.event.image !== 'N/A' ? (
+                            <img className="img-responsive" src={this.state.event.image.page} />
+                        ) : (
+                            <br />
+                        )}
                         <h4>Event Description</h4>
                         <p>{this.state.event.description}</p>
 

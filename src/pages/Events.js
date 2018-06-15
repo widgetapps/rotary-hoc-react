@@ -90,7 +90,7 @@ class Events extends Component {
                                                         <li key={e.id} className={e.id === number?'active':'notactive'}>
                                                             <Link to={`/events/${type}/${e.id}`}>
                                                                 {e.name}
-                                                                <small>{moment(e.starttime).format("ddd, MMM Do, YYYY")} {moment(e.starttime).format("hA")} to {moment(e.endtime).format("hA")}</small>
+                                                                <small>{moment(e.starttime).format("ddd, MMM Do, YYYY")} {moment(e.starttime).format("h:mmA")} to {moment(e.endtime).format("hA")}</small>
                                                             </Link>
                                                         </li>
                                                     ))
