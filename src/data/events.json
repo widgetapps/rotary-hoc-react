@@ -125,31 +125,5 @@
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
     "videolink": "https://vimeo.com/258402954"
-  },
-  {
-    "id": 7,
-    "starttime": "2018-06-22 09:00:00",
-    "endtime": "2018-06-22 17:00:00",
-    "type": "hoc",
-    "name": "Eradication Destination Bicycle Ride, Experienced Cyclists",
-    "byline": "100 KM bike ride coming from four different starting points outside of Toronto.",
-    "description": "100 KM bike ride coming from four different starting points outside of Toronto.  The four routes will then ultimately converge at the location of the International Convention.  Enjoy a ride from the Niagara Region Southwest of Toronto; the Cambridge/Guelph area to the West; the Barrie/Newmarket area in the North or from the Whitby/Oshawa area in the East.\nPlease note: These rides are for experienced and self-supporting riders as there will be no water and food stations along the route. Groups are limited to a maximum of 25 riders.",
-    "gettingthere": "Various Starting Locations",
-    "price": 35.00,
-    "pricedetails": "CAD including all fees and taxes (also raise a minimum of $500.00 CAD for Polio Eradication)",
-    "supportdoc": "N/A",
-    "image": {
-      "listing": "/img/events/ride_listing.jpg",
-      "page": "/img/events/ride_page.jpg",
-      "venue": "/img/events/ride_listing.jpg"
-    },
-    "venue": {
-      "name": "N/A",
-      "address": "N/A",
-      "details": "N/A",
-      "map": "N/A"
-    },
-    "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
-    "videolink": "https://vimeo.com/271727622"
   }
 ]
