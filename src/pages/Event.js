@@ -121,7 +121,11 @@ class Event extends Component {
                         <p><em className="lead">Price: ${this.state.event.price} CAD</em> (approximately ${Math.round(usd)} USD*) including all fees and taxes.</p>
                         <small>* US currency based on the current exchange rate of {this.state.exchange * 100}%.<br/><br/></small>
 
-                        <a href={this.state.event.eventlink} className="btn btn-lg btn-more i-right">Buy Now <i className="fa fa-plus"></i></a>
+                        {this.state.event.eventlink !== 'N/A' ? (
+                            <a href={this.state.event.eventlink} className="btn btn-lg btn-more i-right">Buy Now <i className="fa fa-plus"></i></a>
+                        ) : (
+                            <a href={this.state.event.infolink} className="btn btn-lg btn-more i-right">Learn More <i className="fa fa-plus"></i></a>
+                        )}
 
                         <div className="row">
                             <div className="col-md-12">
@@ -194,7 +198,11 @@ class Event extends Component {
                         <p><em className="lead">Price: ${this.state.event.price} CAD</em> (approximately ${Math.round(usd)} USD*) including all fees and taxes.</p>
                         <small>* US currency based on the current exchange rate of {this.state.exchange * 100}%.<br/><br/></small>
 
-                        <a href={this.state.event.eventlink} className="btn btn-lg btn-more i-right">Buy Now <i className="fa fa-plus"></i></a>
+                        {this.state.event.eventlink !== 'N/A' ? (
+                            <a href={this.state.event.eventlink} className="btn btn-lg btn-more i-right">Buy Now <i className="fa fa-plus"></i></a>
+                        ) : (
+                            <a href={this.state.event.infolink} className="btn btn-lg btn-more i-right">Learn More <i className="fa fa-plus"></i></a>
+                        )}
 
                         <div className="row">
                             <div className="col-md-12">
