@@ -50,3 +50,26 @@
     bottom: 0;
     width: 95%;
 }
+
+.hilite-red, .hilite-yellow {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hilite-red, .hilite-yellow {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hilite-red {
+    background-color: #bb0000;
+}
+
+.hilite-yellow {
+    background-color: #ecb10b;
+}
+
+.hilite-none {
+    display: none;
+}

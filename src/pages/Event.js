@@ -92,7 +92,10 @@ class Event extends Component {
                         </h3>
 
                         {this.state.event.image !== 'N/A' ? (
-                            <img className="img-responsive" src={this.state.event.image.page} />
+                            <div>
+                                <img className="img-responsive" src={this.state.event.image.page} />
+                                <div className={this.state.event.hilite}>{this.state.event.hilitemessage}</div>
+                            </div>
                         ) : (
                             <br />
                         )}
@@ -169,7 +172,10 @@ class Event extends Component {
                         </h3>
 
                         {this.state.event.image !== 'N/A' ? (
-                            <img className="img-responsive" src={this.state.event.image.page} />
+                            <div>
+                                <img className="img-responsive" src={this.state.event.image.page} />
+                                <div className={this.state.event.hilite}>{this.state.event.hilitemessage}</div>
+                            </div>
                         ) : (
                             <br />
                         )}

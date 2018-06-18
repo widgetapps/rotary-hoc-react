@@ -24,7 +24,9 @@
       "map": "https://goo.gl/maps/dZNibjaS4qT2"
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
-    "videolink": "N/A"
+    "videolink": "N/A",
+    "hilite": "hilite-yellow",
+    "hilitemessage": "Selling out fast!"
   },{
     "id": 1,
     "starttime": "2018-06-23 19:00:00",
@@ -50,7 +52,9 @@
       "map": "https://goo.gl/maps/oknr5EtryZm"
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
-    "videolink": "N/A"
+    "videolink": "N/A",
+    "hilite": "hilite-red",
+    "hilitemessage": "Sold out"
   },{
     "id": 4,
     "starttime": "2018-06-25 16:00:00",
@@ -75,7 +79,9 @@
       "map": "N/A"
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
-    "videolink": "N/A"
+    "videolink": "N/A",
+    "hilite": "hilite-red",
+    "hilitemessage": "sold out"
   },{
     "id": 3,
     "starttime": "2018-06-26 16:00:00",
@@ -101,7 +107,9 @@
       "map": "https://goo.gl/maps/1WWm5ohany92"
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
-    "videolink": "https://vimeo.com/258402954"
+    "videolink": "https://vimeo.com/258402954",
+    "hilite": "hilite-yellow",
+    "hilitemessage": "Selling out fast!"
   },{
     "id": 9,
     "starttime": "2018-06-20 17:30:00",
@@ -122,7 +130,8 @@
     },
     "eventlink": "N/A",
     "infolink": "http://rotarytoronto.com",
-    "videolink": "N/A"
+    "videolink": "N/A",
+    "hilite": "hilite-none"
   },{
     "id": 5,
     "starttime": "2018-06-22 14:00:00",
@@ -143,7 +152,8 @@
       "map": "https://goo.gl/maps/5zQbdqfqRv52"
     },
     "eventlink": "https://www.eventbrite.ca/e/toronto-2018-rotary-convention-hoc-events-tickets-39614834035#tickets",
-    "videolink": "N/A"
+    "videolink": "N/A",
+  "hilite": "hilite-none"
   },{
     "id": 11,
     "starttime": "2018-06-22 19:00:00",
@@ -164,7 +174,8 @@
     },
     "eventlink": "N/A",
     "infolink": "",
-    "videolink": "N/A"
+    "videolink": "N/A",
+  "hilite": "hilite-none"
   },{
     "id": 12,
     "starttime": "2018-06-25 18:00:00",
@@ -185,7 +196,8 @@
     },
     "eventlink": "N/A",
     "infolink": "http://www.guildinnestate.com",
-    "videolink": "N/A"
+    "videolink": "N/A",
+  "hilite": "hilite-none"
   },{
     "id": 13,
     "starttime": "2018-06-26 17:00:00",
@@ -206,7 +218,8 @@
     },
     "eventlink": "N/A",
     "infolink": "http://rotarypc.com/event/hot-so-hot---latin-party-cruise/",
-    "videolink": "N/A"
+    "videolink": "N/A",
+  "hilite": "hilite-none"
   },{
     "id": 14,
     "starttime": "2018-06-29 11:00:00",
@@ -227,6 +240,7 @@
     },
     "eventlink": "N/A",
     "infolink": "http://www.torontoribfest.com/",
-    "videolink": "N/A"
+    "videolink": "N/A",
+  "hilite": "hilite-none"
   }
 ]
