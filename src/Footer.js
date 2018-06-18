@@ -20,13 +20,123 @@ class Footer extends Component {
             <div className="block block-pd-sm block-bg-primary">
                 <div className="container">
                     <div className="row">
-                        <h3 className="col-md-4">
-                            Our Sponsors
-                        </h3>
-                        <div className="col-md-8">
-                            <div className="row">
-                                <div className="text-right">If you're interested in sponsoring this event, please contact:<br />
-                                    <a className="btn btn-success" href="mailto:sponsors@rotary2018.org">sponsors@rotary2018.org</a></div>
+                        <h3 className="col-md-12">Sponsors</h3>
+                    </div>
+                    <div className="row">
+                        <div className="col-sm-6">
+                            <div className="logobox">
+                                <img src="/img/sponsors/BM_4color_HOR_Screen_ENG.png" className="logo img-responsive" alt="Bell Media" />
+                            </div>
+                        </div>
+                        <div className="col-sm-6">
+                            <div className="logobox">
+                                <img src="/img/sponsors/Metrolinx_Black_EN.png" className="logo img-responsive" alt="Metrolinx" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="row">
+                        <h3 className="col-md-12">Supporters</h3>
+                    </div>
+                    <div className="row">
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/AGR_4color_stacked_EN.png" className="logo img-responsive" alt="Active Green+Ross®" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/BNYM_4color_EN.png" className="logo img-responsive" alt="BNY Mellon Wealth Management" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/CENTURION_4color_EN.png" className="logo img-responsive" alt="Centurion Asset Management, Inc." />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/CC Logo Shipped.png" className="logo img-responsive" alt="Coutts Crane | Barristers and Solicitors" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/GAC_colour_en.gif" className="logo img-responsive" alt="Global Affairs Canada" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/GLB_Circle_clean.png" className="logo img-responsive" alt="Great Lakes Brewery" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/BM_4color_HOR_Screen_ENG.png" className="logo img-responsive" alt="Homido" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/KPMG_4color_ENG.png" className="logo img-responsive" alt="KPMG" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/LPK_LOGO_SCREEN_LRG.jpg" className="logo img-responsive" alt="Lexus on the Park" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/SCAW-Mac.png" className="logo img-responsive" alt="Macgregors Meats & Seafood Ltd." />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/Mackie_4color_EN.png" className="logo img-responsive" alt="Mackie Research Capital Corporation" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/Megalo_logo_dark.png" className="logo img-responsive" alt="Magalomaniac Wines" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/MyPostcard.png" className="logo img-responsive" alt="MyPostcard" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/PIC_4color_EN.png" className="logo img-responsive" alt="Plan International Canada" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/logo-resolved-smartsimple-01.png" className="logo img-responsive" alt="Re-Solved & SmartSimple Software" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/local-lager-logo.png" className="logo img-responsive" alt="Rotary Lager Beer" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/soles4souls_circle 4_tag.png" className="logo img-responsive" alt="Soles4Souls" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/TR_logo_for_Rotary.jpg" className="logo img-responsive" alt="Tippet Richardson" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/Ultramatic logo- no tag.png" className="logo img-responsive" alt="Ultramatic" />
+                            </div>
+                        </div>
+                        <div className="col-xs-6 col-sm-4 col-lg-3">
+                            <div className="logobox">
+                                <img src="/img/sponsors/UZima_4color_ENG.png" className="logo img-responsive" alt="UZima Filters" />
                             </div>
                         </div>
                     </div>
