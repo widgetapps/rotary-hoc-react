@@ -74,9 +74,15 @@
     display: none;
 }
 
-.logobox {
+.logobox, .sponsorbox {
     background-color: #fff;
     border-radius: 8px;
     padding: 25px;
     margin-bottom: 20px;
+}
+
+.logobox img {
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }

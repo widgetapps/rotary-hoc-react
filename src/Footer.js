@@ -24,12 +24,12 @@ class Footer extends Component {
                     </div>
                     <div className="row">
                         <div className="col-sm-6">
-                            <div className="logobox">
+                            <div className="sponsorbox">
                                 <img src="/img/sponsors/BM_4color_HOR_Screen_ENG.png" className="logo img-responsive" alt="Bell Media" />
                             </div>
                         </div>
                         <div className="col-sm-6">
-                            <div className="logobox">
+                            <div className="sponsorbox">
                                 <img src="/img/sponsors/Metrolinx_Black_EN.png" className="logo img-responsive" alt="Metrolinx" />
                             </div>
 
