@@ -89,11 +89,14 @@
     "type": "hoc",
     "name": "ROTARYFEST",
     "byline": "The Toronto 2018 HOC invites you along with your Rotary family and friends to experience the diversity and multi culturalism of our host city at our ultimate ticketed event ROTARYFEST.",
-    "description": "Spectacular Fireworks\n- Canadian Heritage Featured Events\n - Fantastic Entertainment and Music\n - Foods and treats from all around the world\n - Transportation to and from ROTARYFEST\n - A delicious meal (featuring Chicken & Ribs, Halal Chicken and Vegetarian Selections and much more)\n - A complimentary soft drink, beer or wine\n - An experience of a lifetime.\n\nCome and have fun with us. Let’s congratulate our Rotary President, Ian Riseley and his terrific wife Juliet on one of the best Rotary Years ever.",
+    "description": "At ROTARYFEST enjoy great food, outstanding entertainment, attractions and fun!! Canadian Musical acts include the Brad James Band, the Hogtown Allstars and Juno Award Winner, Rotarian, Jay Douglas with his band. Lots to see and do including Virtual Reality booths; line dancing; Northern Lights display; shoot a hockey puck. Your admission ticket includes your dinner and a beverage, Ribs and Chicken or vegetarian options for all guests. Other classic Ribfest foods will be available for purchase including corn on the cob, French fries, poutine, funnel cakes and ice cream. End the evening with a spectacular Fireworks Display! 4-10pm Tuesday, June 26th. Get your tickets today!!",
     "gettingthere": "ROTARYFEST is being held at the Canadian National Exhibition Centre. One GO Train Station west of the Toronto 2018 venues.",
     "price": 90.00,
     "pricedetails": "CAD (approximately ($75 USD*) including all fees and taxes.",
-    "supportdoc": "N/A",
+    "supportdoc": {
+      "link": "/support-files/ROTARYFEST.pdf",
+      "anchor": "Full Details"
+    },
     "image": {
       "listing": "/img/events/exhibition_listing_hi.jpg",
       "page": "/img/events/exhibition_page_hi.jpg",
