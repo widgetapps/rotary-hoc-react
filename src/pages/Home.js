@@ -41,16 +41,12 @@ class Home extends Component {
                         <div className="row">
                             <div className="col-md-6 col-md-push-6 item-caption">
                                 <h2 className="h1 text-weight-light">
-                                    Welcome to <span className="text-primary"><strong>TORONTO</strong></span>
+                                    Thank you for visiting <span className="text-primary"><strong>TORONTO</strong></span>
                                 </h2>
-                                <h4>
-                                    There's a world of opportunity waiting for you at the Rotary convention.
-                                </h4>
-                                <p>In partnership with Rotary International, the Host Organizing Committee invites you
-                                    to join us in Toronto, Canada June 23-27 2018. With the spirit of true Canadian
-                                    hospitality, we wish to welcome Rotarians from around the world to experience
-                                    everything Toronto and the Golden Horseshoe has to offer.</p>
-                                <a href="http://www.riconvention.org/en/toronto" className="btn btn-more btn-lg i-right">Register Now <i className="fa fa-plus"></i></a>
+                                <p>With the spirit of true Canadian hospitality, the Toronto 2018 Host Organizing
+                                    Committee wish to thank the 25,000+ Rotarians along with their family and friends
+                                    from around the world for experiencing everything that Toronto and the Golden
+                                    Horseshoe has to offer.</p>
                             </div>
                             <div className="col-md-6 col-md-pull-6 hidden-xs">
                                 <img src="../img/c18toronto_logo.png" alt="Slide 1" className="center-block img-responsive" />
@@ -67,37 +63,7 @@ class Home extends Component {
                             <div className="container">
                                 <h2 className="text-shadow-white">
                                     Find inspiration on every block, in every street, and around every corner in Toronto.
-                                    See what we have planned for convention visitors.
                                 </h2>
-                            </div>
-                        </div>
-                        <div className="block block-border-bottom-grey">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-md-12">
-                                        <h2 className="block-title">
-                                            Host Ticketed Events
-                                        </h2>
-                                        <p>Toronto is known as a city of neighbourhoods, where every culture has a home.</p>
-                                    </div>
-                                </div>
-                                <div className="row is-flex">
-                                    {
-                                        DataEvents.all().filter(g => g.type === 'hoc').map(e => (
-
-                                            <div className="col-md-4 col-lg-3">
-                                                <div className="box">
-                                                    <Link to={`/events/hoc/${e.id}`} ><img className="img-responsive img-rounded" border="0" src={e.image.listing} /><div className={e.hilite}>{e.hilitemessage}</div></Link>
-                                                    <h3>{e.name}</h3>
-                                                    <p>{e.byline}</p>
-                                                    <p>Date: {moment(e.starttime).format("ddd, MMM Do, YYYY")}</p>
-                                                    <p>Time: {moment(e.starttime).format("hA")} to {moment(e.endtime).format("hA")}</p>
-                                                    <Link to={`/events/hoc/${e.id}`} className="btn btn-primary anchor">Event Details</Link>
-                                                </div>
-                                            </div>
-                                        ))
-                                    }
-                                </div>
                             </div>
                         </div>
                         <div className="block block-border-bottom-grey">
@@ -111,8 +77,6 @@ class Home extends Component {
                                         {featureArticle.content.map(a => (
                                             <p>{a}</p>
                                         ))}
-
-                                        <Link to="/news" className="btn btn-more i-right">Read More News <i className="fa fa-plus"></i></Link>
                                     </div>
                                 </div>
                             </div>

@@ -43,18 +43,6 @@ class App extends Component {
                 <DocumentMeta {...meta} extend>
                     <Switch>
                         <Route exact path="/" component={Home}/>
-                        <Route exact path="/events" component={Events}/>
-                        <Route path="/events/:type/:id" component={Events}/>
-                        <Route exact  path="/news" component={News}/>
-                        <Route path="/news/:number" component={News}/>
-                        <Route path="/hof" component={Hof}/>
-                        <Route path="/volunteer" component={Volunteer}/>
-                        <Route path="/host" component={Host}/>
-                        <Route path="/files" component={Files}/>
-                        <Route path="/about" component={About}/>
-                        <Route path="/thanks" component={Thanks}/>
-                        <Route path="/clubevent" component={ClubEvent}/>
-                        <Route path="/ideas" component={Ideas}/>
                     </Switch>
                     <Footer />
                 </DocumentMeta>

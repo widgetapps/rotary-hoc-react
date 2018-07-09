@@ -164,22 +164,6 @@ class Footer extends Component {
                                     <div className="validation"></div>
                                 </div>
                                 <div className="form-group">
-                                    <select className="form-control" name="reason" id="contactreason">
-                                        <option value="0">What is your email regarding...</option>
-                                        <option value="xbgzpwam">Accommodations</option>
-                                        <option value="xjyaplpm">Clothing</option>
-                                        <option value="xyenboqx">Convention Registration</option>
-                                        <option value="mdewpbyx">Exhibitors</option>
-                                        <option value="xqpygnjm">Host Hospitality</option>
-                                        <option value="maeplvvm">House of Friendship Support</option>
-                                        <option value="moekpbqm">Sponsorship</option>
-                                        <option value="mwlrwybx">Ticketed Events</option>
-                                        <option value="xganpqvx">Volunteering</option>
-                                        <option value="mvkwvlax">General Inquiry</option>
-                                    </select>
-                                    <div className="validation"></div>
-                                </div>
-                                <div className="form-group">
                                     <input type="text" className="form-control" name="_subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                                     <div className="validation"></div>
                                 </div>
@@ -188,6 +172,7 @@ class Footer extends Component {
                                     <div className="validation"></div>
                                 </div>
                                 <div className="text-center"><button type="submit">Send Message</button></div>
+                                <input type="hidden" name="reason" value="mvkwvlax" />
                                 <input type="text" name="_gotcha" className="hidden" />
                                 <input type="hidden" name="_next" value="http://rotary2018.org/thanks" />
                             </form>
